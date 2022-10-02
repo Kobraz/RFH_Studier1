@@ -5,4 +5,9 @@ body {
 img {
     width: 800px;
     border-width: 2px;
+    border-color: black;
+}
+
+div {
+    width: 800px;
 }
