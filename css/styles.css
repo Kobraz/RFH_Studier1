@@ -4,5 +4,5 @@ body {
 }
 img {
     width: 800px;
-    border: 2px;
+    border-width: 2px;
 }
