@@ -1,19 +1,29 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
+
 img {
     width: 800px;
+    border: solid;
     border-width: 2px;
     border-color: black;
 }
 
 img:hover {
-    transform: scaleY(-1);
-    width: 300px;
+    
+    width: 800px;
     filter: invert(100%);
   }
 
+p.imgtxt {
+    font-style: italic;
+}
+
 div {
     width: 800px;
+}
+
+a {
+    text-decoration: none;
 }
