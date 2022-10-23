@@ -1,4 +1,4 @@
-# Min førrste Repo
-Litt mer tekst
+# My first Repo
+Some text
 
-Flere endringer i readme.md
+Some more text
