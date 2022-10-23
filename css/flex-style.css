@@ -21,6 +21,7 @@ body{
 	width: 150px;
 	height: 150px;
 	background-color: turquoise;
+    align-self: flex-start;
 }
 
 .div2{
