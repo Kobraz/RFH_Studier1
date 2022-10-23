@@ -3,9 +3,6 @@ body{
 	height: 100vh;
 	margin: 0;
 	background-color: rgb(224, 224, 224);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 	}
 	
 .container{
