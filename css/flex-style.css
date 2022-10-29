@@ -5,7 +5,7 @@ body{
 	background-color: rgb(224, 224, 224);
 	}
 	
-.container1{
+.containerTop{
 	width: 100%;
 	height: 150px;
 	background-color: #7da2ff;
@@ -17,16 +17,36 @@ body{
 .div1a{
 	width: 300px;
 	height: 150px;
-	background-color: #7da4ff;
+	background-color: #7da9ff;
 	;
     align-self: flex-start;
     border-radius: 20px 50px 30px 10px;
 }
 
-.div2a{
+.div3a{
 	width: 150px;
 	height: 150px;
-	background-color: orange;
+	background-color: Greenyellow;
+
+}
+
+.containerMain{
+	width: 100%;
+	top: 150px;
+	height: 100%;
+	background-color: #7da2ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	}
+
+.div1a{
+	width: 300px;
+	height: 150px;
+	background-color: #7da9ff;
+	;
+    align-self: flex-start;
+    border-radius: 20px 50px 30px 10px;
 }
 
 .div3a{
