@@ -17,7 +17,7 @@ body{
 .divLogo{
 	width: 300px;
 	height: 150px;
-	background-color: pink;
+	background-color: #7da2ff;
 	;
     align-self: flex-start;
     border-radius: 20px 50px 30px 10px;
@@ -25,8 +25,8 @@ body{
 
 .divMenu{
 	max-width: 300px;
-	height: 75px;
-	top: 75px;
+	height: 50px;
+	top: 100px;
 	background-color: Greenyellow;
 
 }
