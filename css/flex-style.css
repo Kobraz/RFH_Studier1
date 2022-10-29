@@ -14,18 +14,19 @@ body{
     align-items: center;
 	}
 
-.div1a{
+.divLogo{
 	width: 300px;
 	height: 150px;
-	background-color: #7da9ff;
+	background-color: #7da2ff;
 	;
     align-self: flex-start;
     border-radius: 20px 50px 30px 10px;
 }
 
-.div3a{
-	width: 150px;
-	height: 150px;
+.divMenu{
+	max-width: 300px;
+	height: 75px;
+	top: 75px;
 	background-color: Greenyellow;
 
 }
@@ -40,7 +41,7 @@ body{
     align-items: center;
 	}
 
-.div1a{
+.divMain1{
 	width: 300px;
 	height: 150px;
 	background-color: #7da9ff;
@@ -49,7 +50,7 @@ body{
     border-radius: 20px 50px 30px 10px;
 }
 
-.div3a{
+.divMain2{
 	width: 150px;
 	height: 150px;
 	background-color: Greenyellow;
