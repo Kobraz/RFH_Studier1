@@ -1,27 +1,41 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My first website</title>
-  </head>
-  
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">To create and maintain website security, one must focus on the entire website. That is, both on the server, the application and the client.</p>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/flex-style.css">
 
-      <p>Cross-Site Scripting (XSS) has been the most common type of security threat. The best way to protect against XSS attacks is to avoid elements such as &lt;script&gt;, &lt;object&gt;, &lt;embed&gt; and &lt;link&gt; in the code. Web frameworks often automatically sanitize user input from HTML forms.</p>
-      
-      <p>SQL injection is another type of security threat. It occurs when you have the opportunity to change the SQL query to a database by writing code as input in a form in the browser. To avoid this, you can put a backslash before the ' character, so that input from the browser is treated as a text string, and not as code.</p>
-      
-      <p>Cross-Site Request Forgery (CSRF) is a threat where the attacker spreads malicious code to many recipients via email. The code is executed when the recipient presses the Send button while logged into a website, and the individual's login details to the website are already stored in the browser, making this possible. If the POST request sends a secret code to each user, which they must confirm, the malicious code will not work anyway.</p>
-      
-      <p>Strong passwords and two-factor authentication is recommended.</p>
-      
-      <p>There are several other threats to consider, but the most important is to never trust data from the browser, such as URL parameters for GET and POST requests, HTTP headers, cookies, and user-uploaded files. Always assume the worst.</p>
+</head>
+<body>
 
-      <h2>Reference</h2>
-      <P>Mozilla.org (2022) Website security, Available at <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security">https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security</a> (Accessed at 5. october 2022)</P>
-    </body>
+
+	<article class="containerTop">
+		<div class="divLogo">
+			<img src="images/SquareEyes_Logo_anim.png" alt="The websites logo" class="logo">
+		</div>
+		<div class="divMenu">
+			<img src="images/icon-home.png" alt="Home icon" class="menu1">
+			<img src="images/icon-info.png" alt="About icon" class="menu2">
+			<img src="images/icon-contact.png" alt="Contact Us icon" class="menu3">
+			<img src="images/icon-cart.png" alt="Cart icon" class="menu4">
+			<img src="images/icon-account.png" alt="My account icon" class="menu5">
+		</div>
+	</article>
+
+	<article class="containerMain">
+		<div class="divMain1">
+			<h1>Welcome to my website</h1>
+			<p>This is my shop</p>
+
+		</div>
+	</article>
+
+	<article class="containerBottom">
+		<div class="divBottom1"></div>
+		<div class="divBottom2"></div>
+		<div class="divBottom3"></div>
+	</article>
+
+</body>
 </html>
