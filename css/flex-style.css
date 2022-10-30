@@ -31,11 +31,16 @@ body{
 
 }
 
+/*
 img{
 	display: flex;
 	gap: 25px;
 }
+*/
 
+img{
+	margins: 0px 10px 0px 10px;
+}
 
 
 
