@@ -31,6 +31,15 @@ body{
 
 }
 
+.menu1 {
+	display: flex;
+	gap: 25px;
+}
+
+
+
+
+
 .containerMain{
 	width: 100%;
 	top: 150px;
