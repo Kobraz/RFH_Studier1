@@ -61,10 +61,6 @@ img{
 }
 
 .menu:hover{
-	color: red;
-}
-
-#edit-img:hover img {
     -webkit-filter: invert(100%);
 }
 
