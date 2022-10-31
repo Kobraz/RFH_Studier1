@@ -68,6 +68,18 @@ img{
 	max-height: 140px;
 }
 
+.icon:hover + .color{
+	display: block;
+  }
+  
+  .color{
+	border-radius:20px;
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	display: none;
+  }
+
 
 
 /*
