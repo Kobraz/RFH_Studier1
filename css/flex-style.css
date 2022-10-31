@@ -24,9 +24,9 @@ body{
 }
 
 .divMenu{
-	max-width: 300px;
+	max-width: 400px;
 	height: 50px;
-	padding-top: 100px;
+	padding-top: 80px;
 	background-color: #7da2ff;
 
 }
@@ -56,6 +56,23 @@ img{
     
 }
 
+.menu{
+	height: 50px;
+}
+
+.menu:hover{
+	color: red;
+}
+
+#edit-img:hover img {
+    -webkit-filter: invert(100%);
+}
+
+.logo{
+	max-height: 140px;
+}
+
+
 
 /*
 
@@ -80,6 +97,3 @@ img{
 */
 
 
-.logo{
-	max-height: 140px;
-}
