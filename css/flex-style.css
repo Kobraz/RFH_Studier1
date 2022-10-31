@@ -61,7 +61,7 @@ img{
 }
 
 .menu:hover{
-    -webkit-filter: invert(100%);
+    color: invert(100%);
 }
 
 .logo{
