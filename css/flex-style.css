@@ -99,12 +99,12 @@ img{
 .divBottom1{
 	min-width: 300px;
 	height: 100%;
-	background-color: rgb(0, 30, 255);
+	background-color: #7da2ff;
     align-self: flex-start;
 	color: white;
 	text-decoration: none;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	
+
     
 }
 
