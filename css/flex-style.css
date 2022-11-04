@@ -82,13 +82,15 @@ img{
 
 
 
-/*
+
 
 .containerBottom{
 	width: 100%;
 	top: 150px;
 	height: 100%;
-	background-color: white;
+	bottom: 0px;
+	position: absolute;
+	background-color: rgb(58, 232, 55);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -102,6 +104,6 @@ img{
     
 }
 
-*/
+
 
 
