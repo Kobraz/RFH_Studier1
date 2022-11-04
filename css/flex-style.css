@@ -101,6 +101,7 @@ img{
 	height: 100%;
 	background-color: #7da2ff;
     align-self: flex-start;
+	vertical-align: middle;
 	color: black;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size:large;
