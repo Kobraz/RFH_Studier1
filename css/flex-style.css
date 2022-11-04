@@ -90,7 +90,7 @@ img{
 	height: 10%;
 	bottom: 0px;
 	position: absolute;
-	background-color: rgb(58, 232, 55);
+	background-color: #7da2ff;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -98,7 +98,7 @@ img{
 
 .divBottom1{
 	width: 300px;
-	height: 150px;
+	height: 100%;
 	background-color: red;
     align-self: flex-start;
     
