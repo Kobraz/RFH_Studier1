@@ -102,7 +102,7 @@ img{
 	background-color: #7da2ff;
     align-self: flex-start;
 	color: black;
-	text-decoration: none;
+	
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     
@@ -110,6 +110,7 @@ img{
 
 .divBottom1 a{
 	color: black;
+	text-decoration: none;
 }
 
 
