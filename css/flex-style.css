@@ -13,13 +13,13 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+	vertical-align: bottom;
 	}
 
 .divLogo{
 	max-width: 300px;
 	height: 100%;
 	background-color: #7da2ff;
-	;
     align-self: flex-start;
     border-radius: 20px 50px 30px 10px;
 }
@@ -27,7 +27,7 @@ body{
 .divMenu{
 	max-width: 400px;
 	height: 50px;
-	vertical-align: bottom;
+	
 	background-color: #fb3ceb;
 
 }
