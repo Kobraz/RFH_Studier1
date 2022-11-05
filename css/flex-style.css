@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-	vertical-align: bottom;
+
 	}
 
 .divLogo{
@@ -27,8 +27,8 @@ body{
 .divMenu{
 	max-width: 400px;
 	height: 50px;
-	
-	background-color: #fb3ceb;
+	top: 10px;
+	background-color: #9799ee;
 
 }
 
@@ -56,7 +56,7 @@ img{
 .divMain1{
 	width: 90%;
 	height: 100%;
-	background-color: rgb(250, 183, 183);
+	background-color: rgb(194, 194, 194);
     align-self: flex-start;
     
 }
