@@ -28,8 +28,22 @@ body{
 
 	top: 10px;
 	background-color: #7da2ff;
-	float:inline-start;
+}
 
+.p1 {
+	float:left;
+}
+.p2 {
+	float:left;
+}
+.p3 {
+	float:left;
+}
+.p4 {
+	float:left;
+}
+.p5 {
+	float:right;
 }
 
 .divMenu:hover{
