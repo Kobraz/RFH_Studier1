@@ -33,7 +33,7 @@ body{
 }
 
 .divMenu:hover{
-
+filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(190deg) brightness(107%)
 }
 
 img{
