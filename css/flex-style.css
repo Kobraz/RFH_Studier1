@@ -29,13 +29,11 @@ body{
 	height: 50px;
 	padding-bottom: 0px;
 	background-color: #fb3ceb;
-	background-image: url("image/icon-home.png");
-	background-repeat: no-repeat;
+
 }
 
 .divMenu:hover{
-	background-image: url("image/icon-home-i.png");
-	background-repeat: no-repeat;
+
 }
 
 img{
