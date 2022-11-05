@@ -99,6 +99,7 @@ img{
 .divBottom1{
 	min-width: 300px;
 	height: 100%;
+	left: 70%;
 	background-color: #7da2ff;
     align-self: flex-start;
 	vertical-align: middle;
