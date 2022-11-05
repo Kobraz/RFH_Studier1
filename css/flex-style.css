@@ -27,7 +27,7 @@ body{
 .divMenu{
 	max-width: 400px;
 	height: 50px;
-	padding-bottom: 0px;
+	vertical-align: bottom;
 	background-color: #fb3ceb;
 
 }
