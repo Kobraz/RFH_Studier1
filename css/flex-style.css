@@ -99,9 +99,8 @@ img{
 .divBottom1{
 	min-width: 300px;
 	height: 100%;
-	right: 20px;
 	background-color: #7da2ff;
-    align-self: flex-start;
+    align-self: flex-end;
 	vertical-align: middle;
 	color: black;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
