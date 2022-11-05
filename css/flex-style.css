@@ -29,7 +29,13 @@ body{
 	height: 50px;
 	padding-top: 80px;
 	background-color: #7da2ff;
+	background-image: url("image/icon-home.png");
+	background-repeat: no-repeat;
+}
 
+.divMenu:hover{
+	background-image: url("image/icon-home-i.png");
+	background-repeat: no-repeat;
 }
 
 img{
