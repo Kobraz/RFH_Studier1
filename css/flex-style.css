@@ -27,7 +27,7 @@ body{
 .divMenu{
 	max-width: 400px;
 	height: 50px;
-	padding-top: 80px;
+	padding-top: 10%;
 	background-color: #fb3ceb;
 	background-image: url("image/icon-home.png");
 	background-repeat: no-repeat;
