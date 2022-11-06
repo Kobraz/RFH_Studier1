@@ -53,7 +53,8 @@
 #slides .slide {
     width: 25%;
     float: left;
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 100%;
     color: #fff;
 }
