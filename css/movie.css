@@ -16,10 +16,12 @@
 }
 
 #movieCover {
+    background: #007EA7;
     float: left;
 }
 
 #movieInfo {
+    background: #007EA7;
     float: right;
 }
 
