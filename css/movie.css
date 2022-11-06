@@ -19,14 +19,14 @@
     background: #007EA7;
     float: left;
     text-align: center;
-    width: 200%;
+    width: 50%;
 }
 
 #movieInfo {
     background: #007EA7;
     float: right;
     text-align: center;
-    width: 200%;
+    width: 50%;
 }
 
 .cover {
