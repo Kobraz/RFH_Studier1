@@ -47,6 +47,10 @@
     max-height: 500px;
 }
 
-
+#genre {
+    font-size: small;
+    border: 1px;
+    border-radius: 100%;
+}
 
 
