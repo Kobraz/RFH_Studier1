@@ -13,12 +13,7 @@
     line-height: 0;
     min-height: 80%;
     height: 600px;
-    column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-gap: 0;
-    -moz-column-gap: 0;
-    -webkit-column-gap: 0;
+
 }
 
 #movieCover {
