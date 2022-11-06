@@ -3,6 +3,11 @@
     width: 80%;
     max-width: 100%;
     text-align: center;
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 #movieCover {
@@ -15,4 +20,15 @@
 
 .cover {
     max-height: 500px;
+}
+
+
+
+
+#slides {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
 }
