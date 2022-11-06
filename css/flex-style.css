@@ -31,6 +31,10 @@ body{
 	float: inline-start;
 }
 
+.divMenu img{
+	height: 40px;
+}
+
 /*
 .nav{
 	max-width: 1000px;
