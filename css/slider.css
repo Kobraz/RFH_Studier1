@@ -111,7 +111,7 @@
 #slide2:checked ~ #controls label:nth-last-child(3),
 #slide3:checked ~ #controls label:nth-last-child(4),
 #slide4:checked ~ #controls label:nth-last-child(1) {
-    background: url(/images/left_arrow.png) no-repeat;
+    background: url(https://roarfh.netlify.app/images/right_arrow.png) no-repeat;
     float: left;
     margin: 0 0 0 -50px;
     display: block;
