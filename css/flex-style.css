@@ -31,11 +31,13 @@ body{
 	float: inline-start;
 }
 
+/*
 .nav{
 	max-width: 1000px;
 	max-height: 100%;
 	background-color: aqua;
 }
+*/
 
 .divMenu:hover{
 	filter: invert(100%) sepia(70%) saturate(120%) hue-rotate(190deg) brightness(70%)
