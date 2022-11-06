@@ -38,7 +38,7 @@
 #movieInfoBox {
     background: white;
     text-align: center;
-    top: 10px;
+    vertical-align: middle;
     width: 80%;
     height: 80%;
     position: relative;
@@ -60,6 +60,7 @@
     font-size: small;
     border: 1px solid black;
     border-radius: 100%;
+    position: relative;
 }
 #genre2{
     width: 100px;
