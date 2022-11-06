@@ -54,18 +54,21 @@
 }
 
 #genre1{
+    width: 100px;
     float: left;
     font-size: small;
     border: 1px solid black;
     border-radius: 100%;
 }
 #genre2{
+    width: 100px;
     float: none;
     font-size: small;
     border: 1px solid black;
     border-radius: 100%;
 }
 #genre3{
+    width: 100px;
     float: right;
     font-size: small;
     border: 1px solid black;
