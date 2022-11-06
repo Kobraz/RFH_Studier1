@@ -61,6 +61,7 @@ img{
 	height: 100%;
 	background-color: rgb(230, 230, 230);
     align-self: flex-start;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
@@ -119,6 +120,6 @@ img{
 	text-decoration: none;
 }
 
-menu a:hover{
+.menu:hover{
     color: white;
 }
