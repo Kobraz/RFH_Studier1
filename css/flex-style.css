@@ -32,8 +32,8 @@ body{
 }
 
 .nav{
-	max-width: 600px;
-	max-height: 100px;
+	max-width: 50%;
+	max-height: 100%;
 	background-color: aqua;
 }
 
