@@ -117,4 +117,16 @@
     display: block;
 }
 
-bullets
+#bullets {
+    margin: 100px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
