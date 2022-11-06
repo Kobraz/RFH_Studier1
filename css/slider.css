@@ -104,7 +104,7 @@
 #slide4:checked ~ #controls label:nth-child(1) {
     background: url(https://roarfh.netlify.app/images/right_arrow.png) no-repeat;
     float: right;
-    margin: 0 -90% 0 0;
+    margin: 0 -100% 0 0;
     display: block;
 }
 #slide1:checked ~ #controls label:nth-last-child(2),
