@@ -120,6 +120,6 @@ img{
 	text-decoration: none;
 }
 
-.menu a:hover{
+.menu:hover{
     color: white;
 }
