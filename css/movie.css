@@ -38,7 +38,7 @@
 #movieInfoBox {
     background: white;
     text-align: center;
-    vertical-align: middle;
+    top: 10%;
     width: 80%;
     height: 80%;
     position: relative;
