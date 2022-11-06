@@ -20,6 +20,7 @@
     float: left;
     text-align: center;
     width: 50%;
+    position: relative;
 }
 
 #movieInfo {
@@ -27,6 +28,7 @@
     float: right;
     text-align: center;
     width: 50%;
+    position: relative;
 }
 
 .cover {
