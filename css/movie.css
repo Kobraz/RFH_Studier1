@@ -59,6 +59,7 @@
     float: left;
     font-size: small;
     border: 1px solid black;
+    border-width: 200px;
     border-radius: 100%;
     position: relative;
 }
