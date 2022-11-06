@@ -98,19 +98,19 @@
     opacity: 1;
 }
 
-#slide:checked ~ #controls label:nth-child(2),
-#slide:checked ~ #controls label:nth-child(3),
-#slide:checked ~ #controls label:nth-child(4),
-#slide:checked ~ #controls label:nth-child(1) {
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
     background: url(https://roarfh.netlify.app/images/right_arrow.png) no-repeat;
     float: right;
     margin: 0 -50px 0 0;
     display: block;
 }
-#slide:checked ~ #controls label:nth-last-child(2),
-#slide:checked ~ #controls label:nth-last-child(3),
-#slide:checked ~ #controls label:nth-last-child(4),
-#slide:checked ~ #controls label:nth-last-child(1) {
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(1) {
     background: url(/images/left_arrow.png) no-repeat;
     float: left;
     margin: 0 0 0 -50px;
@@ -136,4 +136,16 @@
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
     background: #444;
+}
+
+@media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+        margin: 0;
 }
