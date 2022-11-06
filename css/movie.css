@@ -1,6 +1,7 @@
 #movieContent {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 80%;
+   
     text-align: center;
     padding: 10px;
     border: 3px solid #ccc;
