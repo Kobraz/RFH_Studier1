@@ -105,7 +105,7 @@
     background: url(https://roarfh.netlify.app/images/right_arrow.png) no-repeat;
     float: right;
     margin: 0 -50px 0 0;
-    display: block;
+    display: flex;
 }
 #slide1:checked ~ #controls label:nth-last-child(2),
 #slide2:checked ~ #controls label:nth-last-child(3),
