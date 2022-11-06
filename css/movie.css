@@ -53,14 +53,23 @@
     border-radius: 100%;
 }
 
-#genre g1{
+#genre1{
     float: left;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 100%;
 }
-#genre g2{
+#genre2{
     float: none;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 100%;
 }
-#genre g3{
+#genre3{
     float: right;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 100%;
 }
 
 
