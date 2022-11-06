@@ -8,7 +8,7 @@ body{
 .containerTop{
 	width: 100%;
 	height: 20%;
-	bottom: 0px;
+	top: 0px;
 	background-color: #7da2ff;
     display: flex;
     justify-content: space-around;
@@ -27,7 +27,8 @@ body{
 .divMenu{
 	max-width: 40%;
 	bottom: 0px;
-	background-color: #7dffb5;
+	background-color: #7199fd;
+	radius: 20px;
 
 }
 
@@ -36,7 +37,7 @@ body{
 }
 
 .menu:hover{
-	filter: invert(100%) sepia(70%) saturate(120%) hue-rotate(190deg) brightness(100%)
+	filter: invert(100%) sepia(70%) saturate(120%) hue-rotate(190deg) brightness(100%);
 }
 
 img{
