@@ -120,6 +120,6 @@ img{
 	text-decoration: none;
 }
 
-.divBottom:hover{
+.divBottom a:hover{
     color: white;
 }
