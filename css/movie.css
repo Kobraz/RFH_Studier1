@@ -30,6 +30,7 @@
     background: #007EA7;
     float: right;
     text-align: center;
+    align-items: center;
     width: 50%;
     height: 100%;
     position: relative;
@@ -50,7 +51,6 @@
 
 #genre {
     font-size: small;
-    border: 4px solid rgb(241, 103, 103);
     border-radius: 100%;
 }
 
