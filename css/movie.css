@@ -1,3 +1,10 @@
+#movieContent {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 100%;
+    text-align: center;
+}
+
 .cover {
     max-height: 500px;
 }
