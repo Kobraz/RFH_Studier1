@@ -39,6 +39,7 @@
 #movieInfoBox {
     background: white;
     text-align: center;
+    align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     top: 20px;
     width: 80%;
