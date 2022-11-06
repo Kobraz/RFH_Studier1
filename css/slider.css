@@ -107,10 +107,10 @@
     margin: 0 -100% 0 0;
     display: block;
 }
-#slide1:checked ~ #controls label:nth-last-child(2),
-#slide2:checked ~ #controls label:nth-last-child(3),
-#slide3:checked ~ #controls label:nth-last-child(4),
-#slide4:checked ~ #controls label:nth-last-child(1) {
+#slide1:checked ~ #controls label:nth-last-child(4),
+#slide2:checked ~ #controls label:nth-last-child(1),
+#slide3:checked ~ #controls label:nth-last-child(2),
+#slide4:checked ~ #controls label:nth-last-child(3) {
     background: url(https://roarfh.netlify.app/images/left_arrow.png) no-repeat;
     float: left;
     margin: 0 0 0 -50px;
