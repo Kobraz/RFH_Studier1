@@ -28,6 +28,7 @@ body{
 
 	top: 10px;
 	background-color: #7da2ff;
+	float: inline-start;
 }
 
 .nav{
