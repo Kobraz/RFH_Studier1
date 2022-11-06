@@ -5,6 +5,14 @@
     text-align: center;
 }
 
+#movieCover {
+    float: left;
+}
+
+#movieInfo {
+    float: right;
+}
+
 .cover {
     max-height: 500px;
 }
