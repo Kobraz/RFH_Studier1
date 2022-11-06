@@ -150,3 +150,7 @@
     #slide4:checked ~ #controls label:nth-last-child(1) {
         margin: 0;
 }
+
+.cover {
+    max-height: 90%;
+}
