@@ -104,8 +104,8 @@
 #slide4:checked ~ #controls label:nth-child(1) {
     background: url(https://roarfh.netlify.app/images/right_arrow.png) no-repeat;
     float: right;
-    margin: 0 -50px 0 0;
-    display: flex;
+    margin: 0 50px 0 0;
+    display: block;
 }
 #slide1:checked ~ #controls label:nth-last-child(2),
 #slide2:checked ~ #controls label:nth-last-child(3),
@@ -114,7 +114,7 @@
     background: url(https://roarfh.netlify.app/images/left_arrow.png) no-repeat;
     float: left;
     margin: 0 0 0 -50px;
-    display: flex;
+    display: block;
 }
 
 #bullets {
