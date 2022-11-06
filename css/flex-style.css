@@ -34,6 +34,7 @@ body{
 .nav{
 	max-width: 600px;
 	max-height: 100px;
+	background-color: aqua;
 }
 
 .divMenu:hover{
