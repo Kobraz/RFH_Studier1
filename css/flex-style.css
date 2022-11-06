@@ -121,4 +121,5 @@ img{
 
 .divBottom a:hover{
     color: white;
+	filter: invert(100%) sepia(70%) saturate(120%) hue-rotate(190deg) brightness(100%)
 }
