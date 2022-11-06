@@ -25,9 +25,9 @@ body{
 }
 
 .divMenu{
-
+	max-width: 500px
 	top: 10px;
-	background-color: #7dffd1;
+	background-color: yellow;
 	float: inline-start;
 }
 
