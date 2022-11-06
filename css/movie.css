@@ -49,8 +49,19 @@
 
 #genre {
     font-size: small;
-    border: 1px;
+    border: 1px solid black;
     border-radius: 100%;
 }
+
+#genre g1{
+    float: left;
+}
+#genre g2{
+    float: none;
+}
+#genre g3{
+    float: right;
+}
+
 
 
