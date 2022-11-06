@@ -26,8 +26,7 @@ body{
 
 .divMenu{
 	max-width: 40%;
-	bottom: 0%;
-	vertical-align: bottom;
+	bottom: 0px;
 	background-color: #7da2ff;
 	float: inline-start;
 }
