@@ -16,6 +16,16 @@
     
 }
 
+#movieLeft {
+    background-color: red;
+    float: left;
+}
+
+#movieRight {
+    background-color: red;
+    float: right;
+}
+
 #movieCover {
     background: #007EA7;
     float: left;
