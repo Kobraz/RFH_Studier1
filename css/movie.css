@@ -20,7 +20,6 @@
     float: left;
     vertical-align: middle;
     position: relative;
-    text-align: center;
     height: 100%;
     width: 100%;
 
@@ -30,7 +29,6 @@
     float: right;
     vertical-align: middle;
     position: relative;
-    text-align: center;
     height: 100%;
     width: 100%;
 }
