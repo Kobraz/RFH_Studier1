@@ -17,13 +17,12 @@
 }
 
 #movieLeft {
-    background-color: red;
     float: left;
     vertical-align: middle;
+
 }
 
 #movieRight {
-    background-color: red;
     float: right;
     vertical-align: middle;
 }
