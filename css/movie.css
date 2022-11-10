@@ -92,5 +92,7 @@
     border-radius: 100%;
 }
 
-
+.arrow {
+    vertical-align: middle;
+}
 
