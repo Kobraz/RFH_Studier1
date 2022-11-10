@@ -99,6 +99,7 @@
 }
 
 .text {
+    font-family: Tahoma,Verdana,Segoe,sans-serif; 
     height:fit-content;
     font-size: small;
     text-align: left;
