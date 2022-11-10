@@ -114,8 +114,8 @@ input[type="checkbox"] {
 input[type="checkbox"]:before {
     content: url('https://roarfh.netlify.app/images/heart0.png');
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 20px;
+    height: 20px;
     overflow: hidden;
 }
 input[type="checkbox"]:checked:before {
