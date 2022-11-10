@@ -107,6 +107,10 @@
     text-align: left;
 }
 
+.price {
+    text-align: justify;
+}
+
 input[type="checkbox"] {
     vertical-align: top;
     width: 0;
