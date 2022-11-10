@@ -101,4 +101,5 @@
 .text {
     height:fit-content;
     font-size: small;
+    text-align: left;
 }
