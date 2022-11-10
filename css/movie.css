@@ -93,6 +93,8 @@
 }
 
 .arrow {
+    height: 20;
+    width: 20;
     vertical-align: top;
     background-color: aqua;
 
