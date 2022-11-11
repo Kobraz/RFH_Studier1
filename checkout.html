@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/flex-style.css">
 	<link rel="stylesheet" href="css/movie.css">
+	<link rel="stylesheet" href="css/form.css">
 
 </head>
 <body>
@@ -38,21 +39,34 @@
 					<div id="movieInfoBox">
 						<br>
 						<p> </p>
-						<h1>Checkout</h1>
-						<div id="genre">Action • Adventure • Fantacy</div>
+						<h1>Contact Us</h1>
+						<div id="genre">&nbsp;</div>
 						<div id="text">
 							<br>
-							<p>SquareEyes is an internet company located in</p>
-							<p>Oslo, Norway. We distribute quality films</p>
-							<p>at a reasonable price.</p>
-							<p>Our main objectives:</p>
-							<p>We want to create satisfied customers who</p>
-							<p>return to us again and again.</p>
-							<p>We want to contribute to a sustainable environment</p>
-							<p>and are one of the champions of using less plastic</p>
-							<p>in our products.</p>
-							<p>We want to create a solid and forward-looking company</p>
-							<p>our owners</p>
+							<p>&nbsp;</p>
+							<form action="receipt.html" method="post" class="form-example">
+								<div class="form-example">
+								  	<label for="name">Cardholder name: </label>
+								  	<p>
+								  	<input type="text" name="name" id="name" required placeholder="Cardholder name" class="basic-styling">
+									</p>
+								</div>
+								<div class="form-example">
+									<label for="name">Card number: </label>
+									<p>
+									<input type="text" name="name" id="name" required placeholder="Cardholder name" class="basic-styling">
+								  </p>
+							  </div>
+							  <div class="form-example">
+								<label for="name">Expiration date: </label>
+								<p>
+								<input type="text" name="name" id="monthyearcvv" required placeholder="Month" class="basic-styling"><input type="text" name="name" id="monthyearcvv" required placeholder="Month" class="basic-styling">
+							  </p>
+						  </div>
+								<div class="form-example">
+									<a href="order-receipt.html"><button>Place order</button></a>
+								</div>
+							  </form>
 						</div>
 					</div>
 				</div>
