@@ -2,7 +2,7 @@ input {
     padding: 10px;
     box-shadow: 0 0 2px 1px;
     rgba(0,0,0,0.06);
-    border-radius: 20px;
+    border-radius: 5px;
     font-family: monospace;
 }
 
@@ -10,8 +10,14 @@ textarea {
     padding: 10px;
     box-shadow: 0 0 2px 1px;
     rgba(0,0,0,0.06);
-    border-radius: 20px;
     font-family: monospace;
+    width: 100;
+    resize: vertical;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 4px 4px 10px
+        rgba(0, 0, 0, 0.06);
+    height: 150px;
 }
 
 .basic-styling {
