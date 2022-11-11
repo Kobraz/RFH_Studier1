@@ -3,14 +3,14 @@ input {
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    width: 200px;
+    width: 80%;
     font-family: monospace;
 }
 
 textarea {
     padding: 10px;
     font-family: monospace;
-    width: 200px;
+    width: 80%;
     resize: vertical;
     border-radius: 10px;
     border: 0.5;
