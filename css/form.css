@@ -1,4 +1,13 @@
-input {
+input[type=text] {
+    padding: 10px;
+    box-shadow: 4px 4px 10px
+        rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 80%;
+    font-family: monospace;
+}
+
+input[type=email] {
     padding: 10px;
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
