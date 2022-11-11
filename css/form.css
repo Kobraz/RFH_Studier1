@@ -1,4 +1,4 @@
-input[type=text] {
+input[type=text, type=textarea] {
     padding: 10px;
     box-shadow: 0 0 2px 1px;
     rgba(0,0,0,0.06);
