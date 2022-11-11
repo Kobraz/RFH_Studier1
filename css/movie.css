@@ -129,3 +129,9 @@ input[type="checkbox"]:before {
 input[type="checkbox"]:checked:before {
     content: url('https://roarfh.netlify.app/images/heart1.png');
 }
+
+button {
+    background-color: #7da2ff;
+    font-size: large;
+    font-weight: 600;
+}
