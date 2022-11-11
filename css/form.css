@@ -16,9 +16,13 @@ textarea {
     border: 0;
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
-    height: 150px;
+    height: 120px;
 }
 
 .basic-styling {
     border: 6px solid #007EA7;
+}
+
+button {
+    background-color: #7da2ff;
 }
