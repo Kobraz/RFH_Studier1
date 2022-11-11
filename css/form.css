@@ -13,14 +13,12 @@ textarea {
     width: 200px;
     resize: vertical;
     border-radius: 10px;
-    border: 0;
-    box-shadow: 0px 4px 10px
-        rgba(0, 0, 0, 0.06);
+    border: 0.5;
     height: 120px;
 }
 
 .basic-styling {
-    border: 6px solid #007EA7;
+    border: 2px solid #007EA7;
 }
 
 input[type=submit] {
