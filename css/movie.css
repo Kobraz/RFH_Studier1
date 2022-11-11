@@ -132,7 +132,7 @@ input[type="checkbox"]:checked:before {
 
 button {
     background-color: #7da2ff;
-    font-size: small;
+    font-size:medium;
     font-weight: 200;
     border-radius: 10px;
     border: 0;
