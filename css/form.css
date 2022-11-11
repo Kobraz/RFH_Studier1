@@ -1,4 +1,4 @@
-input[type=text] {
+input {
     padding: 10px;
     box-shadow: 0 0 2px 1px;
     rgba(0,0,0,0.06);
@@ -6,15 +6,7 @@ input[type=text] {
     font-family: monospace;
 }
 
-input[type=email] {
-    padding: 10px;
-    box-shadow: 0 0 2px 1px;
-    rgba(0,0,0,0.06);
-    border-radius: 20px;
-    font-family: monospace;
-}
-
-input[type=textarea] {
+textarea {
     padding: 10px;
     box-shadow: 0 0 2px 1px;
     rgba(0,0,0,0.06);
