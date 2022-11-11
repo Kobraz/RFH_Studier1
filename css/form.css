@@ -23,6 +23,6 @@ textarea {
     border: 6px solid #007EA7;
 }
 
-button {
+input[type=submit] {
     background-color: #7da2ff;
 }
