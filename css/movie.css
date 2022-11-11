@@ -128,7 +128,7 @@ input[type="checkbox"]:before {
 }
 input[type="checkbox"]:checked:before {
     content: url('https://roarfh.netlify.app/images/heart1.png');
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 button {
