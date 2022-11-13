@@ -26,6 +26,16 @@ textarea {
     height: 120px;
 }
 
+.textarea2 {
+    padding: 10px;
+    font-family: monospace;
+    width: 80%;
+    resize: vertical;
+    border-radius: 10px;
+    border: 0.5;
+    height: 160px;
+}
+
 .basic-styling {
     border: 2px solid #007EA7;
 }
