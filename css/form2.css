@@ -69,7 +69,7 @@ table {
 }
 
 hr {
-    width: 60%;
+    width: 80%;
 }
 
 .total {
@@ -79,4 +79,5 @@ hr {
 
 td {
     align:left;
+    height: 30px;
 }
