@@ -52,7 +52,7 @@ button {
 }
 
 
-table {
+.text {
     align-content: left;
     font-size: 0.9em;
     font-family: sans-serif;
@@ -60,12 +60,3 @@ table {
     width: 80%
 }
 
-tr {
-    text-align: left;
-    height: 60px;
-}
-
-.firstrow {
-    border-top: 1px solid red;
-    color: blue;
-}
