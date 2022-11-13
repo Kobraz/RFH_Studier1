@@ -54,6 +54,10 @@ button {
 }
 
 
+table {
+    height: 100%
+}
+
 .text {
     align-content: left;
     font-size: 0.9em;
