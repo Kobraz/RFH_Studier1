@@ -72,3 +72,8 @@ table {
 hr {
     width: 60%;
 }
+
+.total {
+    border-top: 1px solid red;
+    border-bottom: 1px solid blue;
+}
