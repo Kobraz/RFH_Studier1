@@ -57,10 +57,11 @@ button {
 table {
     height: 300px;
     border: 1px solid black;
+    align-content: left;
 }
 
 .text {
-    align-content: left;
+    
     font-size: 0.9em;
     font-family: sans-serif;
     height: 100%;
