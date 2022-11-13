@@ -67,4 +67,5 @@ tr {
 
 .firstrow {
     border-top: 1px solid red;
+    color: blue;
 }
