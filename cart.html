@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/flex-style.css">
+	<link rel="stylesheet" href="css/movie.css">
 	<link rel="stylesheet" href="css/form.css">
 
 </head>
@@ -38,38 +39,35 @@
 					<div id="movieInfoBox">
 						<br>
 						<p> </p>
-						<h1>Cart</h1>
-						<div id="genre"></div>
+						<h1>Contact Us</h1>
+						<div id="genre">&nbsp;</div>
 						<div id="text">
-							<form action="https://roarfh.netlify.app/order-receipt.html" method="get" class="form-example">
+							<br>
+							<p>&nbsp;</p>
+							<form action="receipt.html" method="get" class="form-example">
 								<div class="form-example">
-								  	<label for="name">Cardholder name: </label>
+								  	<label for="name">Name: </label>
 								  	<p>
-								  	<input type="text" name="name" id="name" required placeholder="Cardholder name" class="basic-styling">
+								  	<input type="text" name="name" id="name" required placeholder="Your Name" class="basic-styling">
 									</p>
 								</div>
 								<div class="form-example">
-									<label for="name">Card number: </label>
+								  	<label for="email">E-mail: </label>
 									<p>
-									<input type="text" name="name" id="name" required placeholder="Card number" class="basic-styling">
-								  	</p>
-							  	</div>
-							  	<div class="form-example">
-									<label for="name">Expiration date: </label>
-									<p>
-									<input type="text" name="name" id="monthyearcvv" required placeholder="Month" class="basic-styling"><input type="text" name="name" id="monthyearcvv" required placeholder="Year" class="basic-styling">
-							  		</p>
-						  		</div>
+								  	<input type="email" name="email" id="email" required placeholder="Your E-mail" class="basic-styling">
+									</p>
+								</div>
 								<div class="form-example">
-									<label for="name">CVV Number: </label>
+									<label for="email">E-mail: </label>
 									<p>
-									<input type="text" name="name" id="monthyearcvv" required placeholder="CVV" class="basic-styling">
-							  		</p>
-						  		</div>
+									<textarea id="msg" name="user_message" required placeholder="Your Message" class="basic-styling"></textarea>
+									</p>
+								</div>
 							</form>
 								<div class="form-example">
-									<a href="order-receipt.html"><button>Place order</button></a>
+									<a href="receipt.html"><button>Send</button></a>
 								</div>
+							
 						</div>
 					</div>
 				</div>
