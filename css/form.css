@@ -55,10 +55,12 @@ button {
 table {
     align-content: left;
     font-size: 0.9em;
+    font-family: sans-serif;
     height: 100%;
     width: 80%
 }
 
 tr {
-    heigth:40px;
+    text-align: left;
+    height: 40px;
 }
