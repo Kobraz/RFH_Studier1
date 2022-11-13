@@ -54,8 +54,9 @@ button {
 
 table {
     align-content: left;
+    font-size: 0.9em;
     height: 100%;
-    widht: 80%
+    width: 80%
 }
 
 tr {
