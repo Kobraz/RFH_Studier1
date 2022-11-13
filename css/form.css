@@ -51,6 +51,11 @@ button {
     width: 50px;
 }
 
+
+table {
+    align-content: left;
+}
+
 tr {
     heigth:20px;
 }
