@@ -43,49 +43,25 @@
 						<div id="genre">&nbsp;</div>
 						<div id="text">
 							<br>
-							<table class="cartTable">
-								<thead>
-									<tr>
-									<th colspan="2">Items</th> 
-									</tr>
-								</thead>
-								<tbody>
-									<tr id="firstrow">
-									<td>Hobbs & Shaw<br></td>
-									<td>$ 12.99</td>
-									</tr>
-									<tr>
-									<td>Sweetheart</td>
-									<td>$ 12.99</td>
-									</tr>
-									<tr>
-									<td></td>
-									<td></td>
-									</tr>
-									<tr>
-									<td></td>
-									<td></td>
-									</tr>
-									<tr>
-									<td>Shipping</td>
-									<td>$ 10.00</td>
-									</tr>
-									<tr>
-									<td colspan="2"><hr></td>
-									</tr>
-									<tr id="total">
-									<td>Total</td>
-									<td>$35.98</td>
-									</tr>
-									<tr>
-									<td colspan="2"><hr></td>
-									</tr>									
-								</tbody>
-							</table>
-							<div class="form-example">
-								<a href="order-receipt.html"><button>Send</button></a>
-							</div>
-
+							<p>&nbsp;</p>
+							<form action="receipt.html" method="get" class="form-example">
+								<div class="form-example">
+									<label for="email">Items</label>
+									<p>
+									<textarea id="msg" name="user_message" class="basic-styling">
+										Hobbs & Shaw &emsp; &emsp; &emsp; &emsp; $ 12.99
+										Sweetheart &emsp; &emsp; &emsp; &emsp; &emsp; $ 12.99
+										&emsp;
+										Shipping &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; $ 10.00
+										Total &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; $ 35.98
+									</textarea>
+									</p>
+								</div>
+							</form>
+								<div class="form-example">
+									<a href="order-receipt.html"><button>Send</button></a>
+								</div>
+							
 						</div>
 					</div>
 				</div>
