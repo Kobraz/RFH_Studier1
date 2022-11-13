@@ -57,7 +57,7 @@ button {
 table {
     height: 200px;
     width: 600px;
-    border: 1px solid black;
+    border: 1px solid rgb(196, 161, 20);
     align-content: left;
 }
 
