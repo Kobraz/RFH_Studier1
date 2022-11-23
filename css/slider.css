@@ -87,10 +87,11 @@
 
 #controls {
     margin: -180px 0 0 0;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     z-index: 3;
     position: relative;
+    display: flex;
 }
 
 #controls label {
