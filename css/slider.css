@@ -51,6 +51,12 @@
     height: 600px;
 }
 
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 #slides .slide {
     width: 25%;
     float: left;
