@@ -99,11 +99,8 @@ img{
 .containerBottom{
 
 	bottom: 0px;
-	position: absolute;
 	background-color: #7da2ff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
 	}
 
 .divBottom{
