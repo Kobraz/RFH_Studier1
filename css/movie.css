@@ -1,8 +1,6 @@
 #movieContent {
     margin: 0 auto;
     max-width: 80%;
-   
-   
     padding: 10px;
     border: 3px solid #ccc;
     background: #fff;
@@ -56,6 +54,7 @@
     width: 80%;
     height: 80%;
     position: relative;
+    overflow: auto;
 }
 
 .cover {
