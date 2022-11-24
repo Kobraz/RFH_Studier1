@@ -32,7 +32,7 @@ body{
 
 }
 
-@media (max-width:629px) {
+@media (max-width:300px) {
 	img#logo {
 	  display: none;
 	}
