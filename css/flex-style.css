@@ -32,6 +32,11 @@ body{
 
 }
 
+@media (max-width:629px) {
+	img#logo {
+	  display: none;
+	}
+
 .divMenu img{
 	height: 40px;
 }
