@@ -16,7 +16,13 @@ body{
 
 	}
 
-
+.divLogo{
+	max-width: 200px;
+	max-height: 100px;
+	background-color: #7da2ff;
+    align-self: flex-start;
+    border-radius: 20px 50px 30px 10px;
+}
 
 .divMenu{
 	max-width: 200px;
@@ -26,10 +32,7 @@ body{
 
 }
 
-@media (max-width:200px) {
-	img#logo {
-	  display: none;
-	}
+
 
 .divMenu img{
 	height: 40px;
