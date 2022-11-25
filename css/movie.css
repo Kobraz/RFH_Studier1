@@ -41,6 +41,10 @@
 	#movieCover{
 		display: none;
 	}
+
+    #movieInfo{
+        width: 100%;
+    }
 }
 
 
