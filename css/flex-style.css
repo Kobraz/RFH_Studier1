@@ -29,6 +29,11 @@ body{
 	.divLogo{
 		display: none;
 	}
+
+	.divMenu{
+		font-size: small;
+	}
+	
 }
 
 
