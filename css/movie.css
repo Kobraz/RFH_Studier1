@@ -36,6 +36,14 @@
 
 }
 
+
+@media only screen and (max-width: 420px) {
+	#movieCover{
+		display: none;
+	}
+}
+
+
 #movieInfo {
     background: #007EA7;
     float: right;
