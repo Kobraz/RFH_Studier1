@@ -24,6 +24,14 @@ body{
     border-radius: 20px 50px 30px 10px;
 }
 
+
+@media only screen and (max-width: 420px) {
+	.divLogo{
+		display: none;
+	}
+}
+
+
 .divMenu{
 	max-width: 440px;
 	bottom: 0px;
