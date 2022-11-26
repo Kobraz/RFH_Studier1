@@ -1,0 +1,159 @@
+#movieContent {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    min-height: 80%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#movieLeft {
+    float: left;
+    vertical-align: middle;
+}
+
+#movieRight {
+    float: right;
+    vertical-align: middle;
+}
+
+#movieCover {
+    background: #007EA7;
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 420px) {
+	#movieCover{
+		display: none;
+	}
+
+    #movieInfo{
+        width: 100%;
+    }
+
+    #movieInfoBox{
+        width: 100%;
+    }
+}
+
+
+#movieInfo {
+    background: #007EA7;
+    float: right;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+#movieInfoBox {
+    background: white;
+    text-align: center;
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    overflow: auto;
+    margin: auto;
+}
+
+.cover {
+    max-height: 500px;
+}
+
+#genre {
+    font-size: small;
+    border-radius: 100%;
+}
+
+#genre1{
+    width: 100px;
+    float: left;
+    font-size: small;
+    border: 1px solid black;
+    border-width: 200px;
+    border-radius: 100%;
+    position: relative;
+}
+#genre2{
+    width: 100px;
+    float: none;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#genre3{
+    width: 100px;
+    float: right;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.arrow {
+    height: 20px;
+    width: 20px;
+    vertical-align: top;
+    background-color: aqua;
+
+}
+
+.text {
+    font-family: Tahoma,Verdana,Segoe,sans-serif; 
+    height:fit-content;
+    font-size: small;
+    text-align: left;
+}
+
+.price {
+    text-align: justify;
+}
+
+input[type="checkbox"] {
+    vertical-align: top;
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+input[type="checkbox"]:before {
+    content: url('https://roarfh.netlify.app/images/heart0.png');
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+input[type="checkbox"]:checked:before {
+    content: url('https://roarfh.netlify.app/images/heart1.png');
+    vertical-align: bottom;
+}
+
+button {
+    background-color: #7da2ff;
+    font-size:medium;
+    font-weight: 100;
+    border-radius: 10px;
+    border: 0.5;
+    box-shadow: 4px 4px 10px
+        rgba(0, 0, 0, 0.06);
+    width: 150px;
+}
