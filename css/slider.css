@@ -119,6 +119,7 @@
     float: right;
     right: 0;
     display: block;
+    position: fixed:
 }
 #slide1:checked ~ #controls label:nth-last-child(1),
 #slide2:checked ~ #controls label:nth-last-child(4),
@@ -128,6 +129,7 @@
     float: left;
     left: 0px;
     display: block;
+    position: fixed:
 }
 
 #bullets {
