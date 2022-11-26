@@ -126,7 +126,7 @@
 #slide4:checked ~ #controls label:nth-last-child(2) {
     background: url(https://roarfh.netlify.app/images/left_arrow.png) no-repeat;
     float: left;
-    margin: 0 0 0 -50px;
+
     display: block;
 }
 
