@@ -55,10 +55,13 @@
     gap: 10px;
 }
 
+
 @media only screen and (max-width: 420px) {
-    .slide-content {
-        flex-direction: column;
-    }
+.slide-content {
+    flex-direction: column;
+}
+}
+
 
 #slides .slide {
     width: 25%;
