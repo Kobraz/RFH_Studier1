@@ -36,3 +36,11 @@ body {
     color: 007aff;
     text-align: center;
 }
+
+.menu-icon {
+    left: 20px;
+}
+
+.heart-icon {
+    right: 20px;
+}
