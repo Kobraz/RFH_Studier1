@@ -4,7 +4,7 @@
 
 #slider figure {
     position: relative;
-    width: 500%;
+    width: 900%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
