@@ -8,5 +8,8 @@
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
-     duration timing-function delay iteration-count direction fill-mode;
+}
+
+#slider figure img {
+    width: 20%;
 }
