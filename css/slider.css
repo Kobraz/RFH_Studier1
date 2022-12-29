@@ -7,4 +7,6 @@
     width: 500%;
     margin: 0;
     left: 0;
+    animation: 20s slider infinite;
+     duration timing-function delay iteration-count direction fill-mode;
 }
