@@ -113,9 +113,9 @@ body {
 /* image position */
 
 #slider-span1:target ~ .image.slider {left: 70%}
-#slider-span2:target ~ .image.slider {left: 70%}
-#slider-span3:target ~ .image.slider {left: 70%}
-#slider-span4:target ~ .image.slider {left: 70%}
-#slider-span5:target ~ .image.slider {left: 70%}
-#slider-span6:target ~ .image.slider {left: 70%}
-#slider-span7:target ~ .image.slider {left: 70%}
+#slider-span2:target ~ .image.slider {left: 50%}
+#slider-span3:target ~ .image.slider {left: 25%}
+
+#slider-span5:target ~ .image.slider {left: -25%}
+#slider-span6:target ~ .image.slider {left: -50%}
+#slider-span7:target ~ .image.slider {left: -70%}
