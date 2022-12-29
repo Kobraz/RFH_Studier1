@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(255,65,108), rgb(255,75,43));
+    background: linear-gradient(to right, rgb(108,65,255), rgb(43,75,255));
 }
 
 .image-slider {
