@@ -4,14 +4,14 @@
 
 #slider figure {
     position: relative;
-    width: 900%;
+    width: 1000%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
 }
 
 #slider figure img {
-    width: 11%;
+    width: 10%;
     float: left;
 }
 
@@ -19,28 +19,30 @@
     0% {
         left: 0;
     }
-    20% {
-        left: 0;
-    }
-    25% {
+    11% {
         left: -100%;
     }
-    45% {
-        left: -100%;
-    }
-    50% {
+    22% {
         left: -200%;
     }
-    70% {
-        left: -200%;
-    }
-    75% {
+    33% {
         left: -300%;
     }
-    95% {
-        left: -300%;
-    }
-    100% {
+    44% {
         left: -400%;
     }
-}
+    55% {
+        left: -500%;
+    }
+    66% {
+        left: -600%;
+    }
+    77% {
+        left: -700%;
+    }
+    88% {
+        left: -800%;
+    }
+    99% {
+        left: -900%;
+    }
