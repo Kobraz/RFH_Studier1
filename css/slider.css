@@ -109,3 +109,13 @@ body {
     background-color: transparent;
     filter: saturate(100%)
 }
+
+/* image position */
+
+#slider-span1:target ~ .image.slider {left: 70%}
+#slider-span2:target ~ .image.slider {left: 70%}
+#slider-span3:target ~ .image.slider {left: 70%}
+#slider-span4:target ~ .image.slider {left: 70%}
+#slider-span5:target ~ .image.slider {left: 70%}
+#slider-span6:target ~ .image.slider {left: 70%}
+#slider-span7:target ~ .image.slider {left: 70%}
