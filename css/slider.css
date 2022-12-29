@@ -43,5 +43,9 @@ body {
 }
 
 .button {
-    
+    position: absolute;
+    width: 240px;
+    height: 370px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, .4);
 }
