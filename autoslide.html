@@ -90,6 +90,15 @@
       .dot:hover {
         background-color: #111111;
       }
+      span[title]:hover::after {
+        content: attr(title);
+        position: absolute;
+        top: -100%;
+        left: 0;
+      }
+
+
+
       /* Fading animation */
       .fade {
         -webkit-animation-name: fade;
