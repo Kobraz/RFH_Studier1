@@ -9,7 +9,7 @@
 
 .grid-item {
     background-color: #fff;
-    border-radius: 0.4rem;
+    border-radius: 0.8rem;
     overflow: hidden;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
     transition: 0.2s;
