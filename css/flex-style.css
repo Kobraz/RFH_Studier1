@@ -14,7 +14,7 @@ body{
     justify-content: space-around;
     align-items: center;
 	position: fixed;
-
+	z-index: 200;
 	}
 
 .divLogo{
@@ -120,6 +120,7 @@ img{
 	background-color: #7da2ff;
 	position: fixed;
 	width: 100%;
+	z-index: 100;
 	}
 
 .divBottom{
