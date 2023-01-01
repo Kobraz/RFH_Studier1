@@ -15,7 +15,7 @@
     transition: 0.2s;
 }
 
-.grid-item #photo {
+.card #photo {
     background: url('images/Square_Eyes_Cover1.jpg');
 }
 
