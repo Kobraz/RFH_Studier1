@@ -64,6 +64,9 @@ img{
 
 .containerMain{
 	width: 100%;
+	justify-content: center;
+    display: flex;
+    gap: 4em;
 }
 
 nav ul li {
