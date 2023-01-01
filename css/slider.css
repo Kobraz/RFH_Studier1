@@ -103,7 +103,7 @@
   color: #fff;
   font-size: 12px;
   width: 250px;
-  align: center;
+  align-self: center;
   }
 
   span {
