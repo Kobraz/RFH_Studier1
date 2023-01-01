@@ -19,17 +19,21 @@
 		<div class="divLogo">
 			<img src="images/SquareEyes_Logo_anim.png" alt="The websites logo" class="logo">
 		</div>
-		<div class="divMenu">
-			<a href="index.html" class="menu">Home</a>
-			&emsp;
-			<a href="info.html" class="menu">About us</a>
-			&emsp;
-			<a href="contact.html" class="menu">Contact us</a>
-			&emsp;
-			<a href="cart.html" class="menu">Cart</a>
-			&emsp;
-			<a href="account.html" class="menu">My Account</a>
-        </div>    
+        <nav>
+            <ul id="menuList" style="max-height: 200px;">
+                <li>
+                <a href="index.html" class="menu">Home</a>
+                </li><li>
+                <a href="info.html" class="menu">About us</a>
+                </li><li>
+                <a href="contact.html" class="menu">Contact us</a>
+                </li><li>
+                <a href="cart.html" class="menu">Cart</a>
+                </li><li>
+                <a href="account.html" class="menu">My Account</a>
+                </li>
+            </div>
+        </nav>    
         <div class="burgerMenu">
             <img src="images/menu.png" class="menu-icon" alt="menu-icon" onclick="togglemenu()">
 
@@ -159,7 +163,22 @@
 		   }
 		  timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
 		}
-	  </script>
+	</script>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu() {
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "200px";
+                }
+            else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+        }
+    </script>
 
 </body>
 </html>
