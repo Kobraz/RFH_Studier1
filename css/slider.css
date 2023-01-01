@@ -83,7 +83,7 @@
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
-    top: 155;
+    top: 155px;
     height: 15px;
     width: 15px;
     margin: 0 2px;
