@@ -7,7 +7,9 @@
 	<meta name="description" content="Author: Roar Falch Hanssen, Category: Movies">
 	<link rel="stylesheet" href="css/flex-style.css">
 	<link rel="stylesheet" href="css/slider.css">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -37,46 +39,107 @@
 
 
 	<article class="containerMain">
-		<div class="slide-container">
-			<span class="slider-span" id="slider-span1"></span>
-			<span class="slider-span" id="slider-span2"></span>
-			<span class="slider-span" id="slider-span3"></span>
-			<span class="slider-span" id="slider-span4"></span>
-			<span class="slider-span" id="slider-span5"></span>
-			<span class="slider-span" id="slider-span6"></span>
-			<span class="slider-span" id="slider-span7"></span>
-
-			<div class="image-slider">
-				<div class="slides-div" id="slide-1">
-					<img src="images/Square_Eyes_Cover1.jpg" alt="" class="img" id="img1">
-					<a href="#slider-span1" class="button" id="button-1"></a>
-				</div>
-				<div class="slides-div" id="slide-2">
-					<img src="images/Square_Eyes_Cover2.jpg" alt="" class="img" id="img2">
-					<a href="#slider-span2" class="button" id="button-2"></a>
-				</div>
-				<div class="slides-div" id="slide-3">
-					<img src="images/Square_Eyes_Cover3.jpg" alt="" class="img" id="img3">
-					<a href="#slider-span3" class="button" id="button-3"></a>
-				</div>
-				<div class="slides-div" id="slide-4">
-					<img src="images/Square_Eyes_Cover4.jpg" alt="" class="img" id="img4">
-					<a href="#slider-span4" class="button" id="button-4"></a>
-				</div>
-				<div class="slides-div" id="slide-5">
-					<img src="images/Square_Eyes_Cover5.jpg" alt="" class="img" id="img5">
-					<a href="#slider-span5" class="button" id="button-5"></a>
-				</div>
-				<div class="slides-div" id="slide-6">
-					<img src="images/Square_Eyes_Cover6.jpg" alt="" class="img" id="img6">
-					<a href="#slider-span6" class="button" id="button-6"></a>
-				</div>
-				<div class="slides-div" id="slide-7">
-					<img src="images/Square_Eyes_Cover7.jpg" alt="" class="img" id="img7">
-					<a href="#slider-span7" class="button" id="button-7"></a>
-				</div>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/hobbsandshaw.jpg" alt="Hobb and Shaw" style="width:100%">
+			  <div class="text">Hobbs and Shaw</div>
 			</div>
-		</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/hollywood.jpg" alt="Once upon a time in Hollywood" style="width:100%">
+			  <div class="text">Once upon a time in Hollywood</div>
+			</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/godzilla.jpg" alt="Godzilla: King of the Monsters" style="width:100%">
+			  <div class="text">Godzilla: King of the monsters</div>
+			</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/toystory4.jpg" alt="Toy Story 4" style="width:100%">
+			  <div class="text">Toy Story 4</div>
+			</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/scream.jpg" alt="Scream" style="width:100%">
+			  <div class="text">Scream</div>
+			</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/sweetheart.jpg" alt="Sweetheart" style="width:100%">
+			  <div class="text">Sweetheart</div>
+			</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/addamsfamily.jpg" alt="The Addams Family: Halloween" style="width:100%">
+			  <div class="text">The Addams Family: Halloween</div>
+			</div>
+			<div class="mySlides fade">
+			  <div class="numbertext"></div>
+			  <img src="images/batman.jpeg" alt="Batman: Unmask the truth" style="width:100%">
+			  <div class="text"><a href="vg.no">Batman: Unmask the truth</a></div>
+			</div>
+	  
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  </div>
+		  <br>
+		  <div style="text-align:center">
+			<span class="dot" onclick="currentSlide(0)" title="Hobbs and Shaw"></span>
+			<span class="dot" onclick="currentSlide(1)" title="Once upon a time in Hollywood"></span>
+			<span class="dot" onclick="currentSlide(2)" title="Godzilla: King of the Monsters"></span>
+			<span class="dot" onclick="currentSlide(3)" title="Toy Story 4"></span>
+			<span class="dot" onclick="currentSlide(4)" title="Scream"></span>
+			<span class="dot" onclick="currentSlide(5)" title="Sweetheart"></span>
+			<span class="dot" onclick="currentSlide(6)" title="The Addams Family: Halloween"></span>
+			<span class="dot" onclick="currentSlide(7)" title="Batman: Unmask the truth"></span>
+		  </div>
+	  
+	  
+	  
+	  
+	  
+		  <script>
+			let slideIndex = 0;
+			let timeoutId = null;
+			const slides = document.getElementsByClassName("mySlides");
+			const dots = document.getElementsByClassName("dot");
+			
+			showSlides();
+			function currentSlide(index) {
+				 slideIndex = index;
+				 showSlides();
+			}
+		   function plusSlides(step) {
+			  
+			  if(step < 0) {
+				  slideIndex -= 2;
+				  
+				  if(slideIndex < 0) {
+					slideIndex = slides.length - 1;
+				  }
+			  }
+			  
+			  showSlides();
+		   }
+			function showSlides() {
+			  for(let i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+				dots[i].classList.remove('active');
+			  }
+			  slideIndex++;
+			  if(slideIndex > slides.length) {
+				slideIndex = 1
+			  }
+			  slides[slideIndex - 1].style.display = "block";
+			  dots[slideIndex - 1].classList.add('active');
+			   if(timeoutId) {
+				  clearTimeout(timeoutId);
+			   }
+			  timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+			}
+		  </script>
 	</article>
 
 
