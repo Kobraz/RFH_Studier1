@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+
 body{
 	
 	height: 100vh;
@@ -67,11 +69,11 @@ nav ul li {
 
 #menuList {
 	max-height: 200px;
-	max-width: 440px;
+	max-width: 480px;
 	bottom: 0px;
     align-self: flex-end;
 	vertical-align: middle;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: large;
 	color: white;
 }
