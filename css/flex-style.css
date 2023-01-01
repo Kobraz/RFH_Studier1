@@ -161,7 +161,7 @@ img{
 	}
 
 	.burgerMenu {
-		display: block;
+		display: flex;
 	}
 	
 }
