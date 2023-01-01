@@ -38,7 +38,7 @@ body{
 }
 
 
-.divMenu{
+.divMenu {
 	max-width: 440px;
 	bottom: 0px;
     align-self: flex-end;
@@ -46,6 +46,15 @@ body{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: larger;
 
+}
+
+.burgerMenu {
+	max-width: 440px;
+    align-self: flex-end;
+	vertical-align: middle;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: larger;
+	z-index: 100;
 }
 
 .menu-icon {
