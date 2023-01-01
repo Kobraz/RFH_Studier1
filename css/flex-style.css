@@ -52,8 +52,7 @@ body{
 	max-width: 440px;
     align-self: flex-end;
 	vertical-align: middle;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: larger;
+	display: block;
 	z-index: 100;
 }
 
