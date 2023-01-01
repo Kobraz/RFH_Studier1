@@ -67,6 +67,16 @@ img{
 	width: 100%;
 }
 
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#menuList {
+	max-height: 200px;
+}
+
 /*-----------------------------------------------START MAIN------------------------------------------------------------*/
 
 /*
