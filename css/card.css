@@ -15,6 +15,10 @@
     transition: 0.2s;
 }
 
+.grid-item #photo {
+    background-image:url(images/Square_Eyes_Cover1.jpg);
+}
+
 .grid-item:hover {
     transform: translatey(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
