@@ -1,7 +1,7 @@
 .grid {
     margin: 150px 0 0 0;
     display: grid;
-    width: 515px;
+    width: 518px;
     grid-gap: 5rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
     align-items: start;
