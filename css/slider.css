@@ -99,7 +99,7 @@
 
   span[title]:hover::after {
   content: attr(title);
-  position: absolute;
+  position: fixed;
   top: -160%;
   left: 0;
   background:rgba(0,0,0,0.8);
