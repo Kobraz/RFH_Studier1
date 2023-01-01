@@ -26,16 +26,7 @@ body{
 }
 
 
-@media only screen and (max-width: 420px) {
-	.divLogo{
-		display: none;
-	}
 
-	.divMenu{
-		font-size: small;
-	}
-	
-}
 
 
 .divMenu {
@@ -52,7 +43,7 @@ body{
 	max-width: 440px;
     align-self: flex-end;
 	vertical-align: middle;
-	display: block;
+	display: none;
 	z-index: 100;
 }
 
@@ -151,4 +142,26 @@ img{
 
 .menu:hover{
     color: white;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+	.divLogo{
+		display: none;
+	}
+
+	.divMenu{
+		display: none;
+	}
+
+	.hamburgerMenu {
+		display: block;
+	}
+	
 }
