@@ -48,7 +48,9 @@ body{
 
 }
 
-
+.menu-icon {
+	filter: invert(100%);
+}
 
 .divMenu img{
 	height: 40px;
