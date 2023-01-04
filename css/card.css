@@ -46,6 +46,10 @@ div .card h1 {
     color: #fff;
 }
 
+div .card p {
+    color: #fff;
+}
+
 .cardPhoto {
     width: 500px;
     height: 741px;
