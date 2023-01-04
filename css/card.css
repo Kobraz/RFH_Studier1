@@ -27,6 +27,10 @@ div .card {
     height: 741px;
 }
 
+div .card #info {
+    margin: 50px;
+}
+
 div .card h1 {
     text-align: center;
 }
