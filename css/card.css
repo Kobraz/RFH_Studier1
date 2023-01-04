@@ -117,6 +117,10 @@ div .card p {
     margin-bottom: 2.5rem;
 }
 
-#trailer {
+.trailer {
+    align-content: center;
+}
+
+.nextprev {
     align-content: center;
 }
