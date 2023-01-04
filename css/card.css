@@ -45,7 +45,7 @@ div .card #info {
 
 div .card h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 24;
+    font-size: 24px;
     text-align: center;
     color: #fff;
     padding-top: 0px;
@@ -59,10 +59,12 @@ div .card h2 {
 
 div .card p {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     color: #fff;
 }
 
 .top {
+    font-size: 18px;
     padding-bottom: 0px;
     text-align: center;
 }
