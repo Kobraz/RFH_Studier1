@@ -118,9 +118,9 @@ div .card p {
 }
 
 .trailer {
-    align-content: center;
+    justify-content: center;
 }
 
 .nextprev {
-    align-content: center;
+    justify-items: center;
 }
