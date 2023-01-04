@@ -5,6 +5,7 @@
     grid-gap: 5rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
     align-items: start;
+    background-color: black;
 }
 
 .grid-item {
@@ -46,7 +47,6 @@ div .card h1 {
     height: 741px;
     object-fit: fill;
     justify-content: center;
-    background-color: black;
 }
 
 .grid-item:hover {
