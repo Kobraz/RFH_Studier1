@@ -22,6 +22,12 @@
     object-fit: fill;
 }
 
+.cardPhoto {
+    width: 500px;
+    height: 741px;
+    object-fit: fill;
+}
+
 .grid-item:hover {
     transform: translatey(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
