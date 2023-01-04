@@ -17,6 +17,9 @@
 
 .card #photo {
     background-image: url("images/Square_Eyes_Cover1.jpg");
+    width: 500px;
+    height: 741px;
+    object-fit: fill;
 }
 
 .grid-item:hover {
