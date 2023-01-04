@@ -60,6 +60,12 @@ div .card p {
     color: #fff;
 }
 
+div .card p #top {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
 .cardPhoto {
     width: 500px;
     height: 741px;
