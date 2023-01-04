@@ -18,6 +18,8 @@
 .card {
     background-color: rgb(239, 92, 92);
     border-radius: 0.8rem;
+    width: 500px;
+    height: 700px;
     position: relative;
     justify-self: center;
 }
