@@ -128,5 +128,9 @@ iframe {
 }
 
 .nextprev {
-    text-align: justify;
+    text-align: center;
+}
+
+.nxtprv {
+    margin: 0 auto;
 }
