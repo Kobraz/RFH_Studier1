@@ -15,11 +15,16 @@
     transition: 0.2s;
 }
 
-.card #photo {
+.card #info {
     background-image: url("images/Square_Eyes_Cover2.jpg");
     width: 500px;
     height: 741px;
     object-fit: fill;
+}
+
+div .card {
+    width: 500px;
+    height: 741px;
 }
 
 .cardPhoto {
