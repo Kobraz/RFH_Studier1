@@ -15,7 +15,7 @@
     transition: 0.2s;
 }
 
-.card #info {
+.card {
     background-color: rgb(239, 92, 92);
     border-radius: 0.8rem;
     width: 450px;
@@ -24,6 +24,14 @@
 
 }
 
+.card #info {
+    background-color: rgb(239, 92, 92);
+    border-radius: 0.8rem;
+    width: 450px;
+    height: 700px;
+    margin: 30px 30px 11px 30px;
+
+}
 
 
 div .card {
