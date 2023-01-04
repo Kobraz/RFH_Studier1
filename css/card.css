@@ -15,11 +15,9 @@
     transition: 0.2s;
 }
 
-.card {
-    
+.card {   
     border-radius: 0.8rem;
-    width: 450px;
-    height: 700px;
+
     margin: 30px 30px 11px 30px;
 
 }
