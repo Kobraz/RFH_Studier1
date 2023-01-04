@@ -27,6 +27,9 @@ div .card {
     height: 741px;
 }
 
+div .card h1 {
+    text-align: center;
+}
 
 .cardPhoto {
     width: 500px;
