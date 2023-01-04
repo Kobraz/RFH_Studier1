@@ -69,6 +69,12 @@ div .card p {
     text-align: center;
 }
 
+.genre {
+    font-size: 16px;
+    color: #ff0;
+}
+
+
 .cardPhoto {
     width: 500px;
     height: 741px;
