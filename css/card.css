@@ -15,6 +15,11 @@
     transition: 0.2s;
 }
 
+.card {
+    background-color: rgb(239, 92, 92);
+    border-radius: 0.8rem;
+}
+
 .card #info {
     background-image: url("images/Square_Eyes_Cover2.jpg");
     width: 500px;
