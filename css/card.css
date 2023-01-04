@@ -118,7 +118,13 @@ div .card p {
 }
 
 .trailer {
-    text-align: justify;
+    text-align: center;
+}
+
+iframe {
+    width: 187px;
+    height: 105px;
+    margin: 0 auto;
 }
 
 .nextprev {
