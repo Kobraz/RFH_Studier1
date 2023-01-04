@@ -98,7 +98,7 @@
     background-color: #111111;
   }
 
-  /*
+  
   span[title]:hover::after {
   content: attr(title);
   position:relative;
@@ -106,7 +106,7 @@
   left: 0;
   background:rgba(0,0,0,0.8);
   color: #fff;
-  font-size: 12px;
+  font-size: 0px;
   width: 250px;
   align-self: center;
   }
@@ -116,7 +116,7 @@
   display: inline-block;
   margin-top: 20px;
   }
-  */
+  
 
 
   /* Fading animation */
