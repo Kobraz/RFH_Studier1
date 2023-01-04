@@ -20,12 +20,7 @@
     border-radius: 0.8rem;
 }
 
-.card #info {
-    background-image: url("images/Square_Eyes_Cover2.jpg");
-    width: 500px;
-    height: 741px;
-    object-fit: fill;
-}
+
 
 div .card {
     width: 500px;
