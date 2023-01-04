@@ -35,6 +35,7 @@ div .card #info {
     width: 450px;
     height: 650px;
     margin: 40px 25px;
+    position: relative;
 }
 
 div .card h1 {
