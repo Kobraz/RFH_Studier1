@@ -190,6 +190,7 @@ nav ul li {
 	.containerMain {
 		justify-content: center;
 		display: flex;
+		flex-wrap: wrap;
 		gap: 4em;
 	}
 
