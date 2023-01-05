@@ -159,7 +159,7 @@ button {
 }
 
 button#account {
-    background-color: #ff7de3;
+    background-color: #7da2ff;
     font-size:medium;
     font-weight: 100;
     border-radius: 10px;
@@ -169,7 +169,7 @@ button#account {
     width: 150px;
 }
 
-button #account:hover{
+button:hover{
     transform: translatey(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
 }
