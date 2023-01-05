@@ -162,4 +162,11 @@ iframe {
         box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
         transition: 0.2s;
     }
+
+    .information {
+        width: 400px;
+        height: 650px;
+        margin: 20px 20px;
+        background-color: #000;
+    }
 }
