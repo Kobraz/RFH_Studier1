@@ -141,7 +141,10 @@ iframe {
     font-size: 12px;
 }
 
-
+.nxtprv img {
+    height: 20px;
+    width: 20px;
+}
 
 
 
