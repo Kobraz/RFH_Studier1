@@ -13,6 +13,7 @@
   }
   img {
     vertical-align: middle;
+    cursor: pointer;
   }
   .slideshow-container {
     top: 150px;
