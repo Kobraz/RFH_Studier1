@@ -167,6 +167,7 @@ button#account {
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
     width: 150px;
+    align-self: center;
 }
 
 button:hover{
