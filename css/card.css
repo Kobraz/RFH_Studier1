@@ -35,7 +35,7 @@
 
 .xgrid-item {
     background-color: #000;
-    border-radius: 0.8rem 0.8rem 5rem 0.8rem;
+    border-radius: 0.8rem 0.8rem 10rem 0.8rem;
     overflow: hidden;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
     transition: 0.2s;
