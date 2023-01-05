@@ -187,4 +187,10 @@ nav ul li {
 		display: flex;
 	}
 	
+	.containerMain {
+		justify-content: center;
+		display: flex;
+		gap: 4em;
+	}
+
 }
