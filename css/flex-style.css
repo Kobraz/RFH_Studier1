@@ -140,7 +140,7 @@ nav ul li {
 
 .containerBottom{
 
-	bottom: 0px;
+	bottom: -50px;
 	background-color: #7da2ff;
 	position: fixed;
 	width: 100%;
