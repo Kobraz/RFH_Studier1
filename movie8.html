@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/flex-style.css">
 	<link rel="stylesheet" href="css/movie.css">
+    <link rel="stylesheet" href="css/card.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -30,51 +34,48 @@
 		
 	</article>
 
-	<article class="containerMain">
-		<div class="divMain1">
-
-			<div id="movieContent">
-				<div id="movieCover">
-					<p> </p>
-					<h1>TOY STORY 4</h1>
-					<img src="images/Square_Eyes_Cover8.jpg" alt="MovieCover" class="cover">
-				</div>
-				<div id="movieInfo">
-					<div id="movieInfoBox">
+	
+    
+    <article class="containerMain">
+		<div class="grid">
+            <div class="grid-item" id="photo">
+                <div class="cardImg" id="photo">
+					<img class="cardPhoto" src="images/Square_Eyes_Cover7.jpg" alt="movie cover">
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid-item" id="info">
+                <div class="card" id="info">
+					<div class="information">
+						<h1>The Batman</h1>
+						<p class="top">Unmask The Truth</p>
+						<p class="genre">Action • Adventure • Fantacy</p>
 						<br>
-						<p> </p>
-						<h1>TOY STORY 4</h1>
-						<div id="genre">Animation • Adventure • Comedy</div>
-						<div id="text">
-							<br>
-							<h4>Movie information from imdb.com</h4>
-							<br>
-							<p>When a new toy called "Forky" joins Woody </p>
-							<p>and the gang, a road trip alongside old </p>
-							<p>new friends reveals how big the world can </p>
-							<p>be for a toy.</p>
-							<br>
-							<p><b>Director:</b>Josh Cooley</p>
-							<br>
-							<p><b>Writers:</b>John Lasseter(original story by) •</p>
-							<p>Stanton(original story by) • Josh Cooley(original</p>
-							<p>story by) </p>
-							<br>
-							<p><b>Stars:</b>Tom Hanks(voice) • Tim Allen(voice) • </p>
-							<p>Annie Potts(voice)</p>
-						</div>
-						<div id="trailer">
-							<iframe width="187" height="105" src="https://www.youtube.com/embed/wmiIUN-7qhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p><b>Movie information from imdb.com</b></p>
+						<p>When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to the city's hidden corruption and question his family's involvement.</p>
+						<p><b>Director:</b> Matt Reeves</p>
+						<p><b>Writers:</b> Matt Reeves • Peter Craig • Bob Kane (created by: Batman)</p>
+						<p><b>Stars:</b> Robert Pattinson • Zoë Kravitz • Jeffrey Wright</p>
+						<div class="trailer">
+							<iframe width="187" height="105" src="https://www.youtube.com/embed/u6dkaCj6RCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 						<div id="price">
-							<p><a href="movie7.html"><img src="images/arr_left.png" id="arrow"></a><img src="images/imdb-logo.jpg" height="22px"> <b>7.7</b>/10 &ensp; Price: $12.99 &ensp; <a href="cart.html"><button>Add to cart</button></a> &ensp; <input type="checkbox" /> &ensp; <a href="movie1.html"><img src="images/arr_right.png" id="arrow"></a></p>
+							<p><a href="imdb.com"><img src="images/imdb-logo.jpg" height="22px"></a> <b>7.9</b>/10 &ensp; Price: $12.99 &nbsp; <a href="cart.html"><button>Add to cart</button></a> &nbsp; <input type="checkbox" /></p>
+						</div>
+						<div class="nextprev">
+							<p class="nxtprv"><a href="movie7.html"><img src="images/arr_left.png" id="arrow" title="Previous"></a><a href="movie1.html"><img src="images/arr_right.png" id="arrow" title="Next"></a></p>
+							
+
 						</div>
 					</div>
-				</div>
-			</div>
-
-		</div>
+                </div>
+            </div>
+        </div>
 	</article>
+
+
+
 	<article class="containerBottom">
 		<div class="divBottom">
 			<b>SquareEyes:</b> Connecting film-lovers
