@@ -150,3 +150,26 @@
       font-size: 11px
     }
   }
+
+
+
+
+
+
+  @media only screen and (max-width:800px) {
+
+    .text {
+      font-size: 18px;
+      font-weight: bold;
+      stroke: black;
+      stroke-width: 1px;
+      stroke-linejoin: round;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      align-self: center;
+      text-align: center;
+      background:rgba(0,0,0,0.8);
+    }
+  }
