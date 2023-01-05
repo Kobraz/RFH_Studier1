@@ -157,3 +157,24 @@ button {
         rgba(0, 0, 0, 0.06);
     width: 120px;
 }
+
+button #account {
+    background-color: #7da2ff;
+    font-size:medium;
+    font-weight: 100;
+    border-radius: 10px;
+    border: 0.5;
+    box-shadow: 4px 4px 10px
+        rgba(0, 0, 0, 0.06);
+    width: 150px;
+}
+
+button #account:hover{
+    transform: translatey(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
