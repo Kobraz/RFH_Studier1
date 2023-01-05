@@ -17,6 +17,10 @@
     transition: 0.2s;
 }
 
+.grid-item2 {
+    background-color: #f2ebe1;
+}
+
 .cardImg {   
     border-radius: 0.8rem;
 
