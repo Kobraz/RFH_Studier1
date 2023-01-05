@@ -124,15 +124,15 @@ nav ul li {
 
 .icon:hover + .color{
 	display: block;
-  }
+}
   
-  .color{
+.color{
 	border-radius:20px;
 	background-color: red;
 	height: 100px;
 	width: 100px;
 	
-  }
+}
 
 
 /*-----------------------------------------------START BOTTOM------------------------------------------------------------*/
@@ -145,7 +145,7 @@ nav ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 100;
-	}
+}
 
 .divBottom{
 	min-width: 300px;
@@ -191,7 +191,7 @@ nav ul li {
 		justify-content: center;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 1en;
+		gap: 15px;
 	}
 
 }
