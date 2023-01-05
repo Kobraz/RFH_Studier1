@@ -117,26 +117,7 @@ div .card p {
     transform: translatey(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
 }
-.grid-item4:hover {
-    transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
-}
-.grid-item5:hover {
-    transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
-}
-.grid-item6:hover {
-    transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
-}
-.grid-item7:hover {
-    transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
-}
-.grid-item8:hover {
-    transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
-}
+
 
 .card-img {
     display: block;
