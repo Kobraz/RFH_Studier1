@@ -168,7 +168,7 @@ button#account {
     width: 150px;
     display: flex;
     justify-content: center;
-    border: #fff solid 2px;
+    border: #00b solid px;
 }
 
 button#account:hover{

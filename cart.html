@@ -6,7 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/flex-style.css">
 	<link rel="stylesheet" href="css/movie.css">
-	<link rel="stylesheet" href="css/form2.css">
+    <link rel="stylesheet" href="css/card.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -31,78 +34,56 @@
 		
 	</article>
 
-	<article class="containerMain">
-		<div class="divMain1">
-
-			<div id="movieContent">
-				<div id="movieCover">
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<a href="index.html"><img src="images/movies.gif" alt="MovieCoverAnimation" class="cover"></a>
-				</div>
-				<div id="movieInfo">
-					<div id="movieInfoBox">
+	
+    
+    <article class="containerMain">
+		<div class="grid">
+            <div class="grid-item" id="photo">
+                <div class="cardImg" id="photo">
+					<img class="cardPhotoX" id="imageX" src="images/Square_Eyes_Cover7.jpg" alt="movie cover">
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid-item" id="info">
+                <div class="card" id="info">
+					<div class="information">
+						<h1>My Account</h1>
 						<br>
-						<p> </p>
-						<h1>Cart</h1>
-						<div id="genre">&nbsp;</div>
-						<div id="text">
-							<br>
-							<table class="cartTable">
-								<thead>
-									<tr>
-									<th colspan="2">Items</th> 
-									</tr>
-								</thead>
-								<tbody>
-									<tr id="firstrow">
-									<td>Hobbs & Shaw<br></td>
-									<td>$ 12.99</td>
-									</tr>
-									<tr>
-									<td>Sweetheart</td>
-									<td>$ 12.99</td>
-									</tr>
-									<tr>
-									<td></td>
-									<td></td>
-									</tr>
-									<tr>
-									<td></td>
-									<td></td>
-									</tr>
-									<tr>
-									<td>Shipping</td>
-									<td>$ 10.00</td>
-									</tr>
-									<tr>
-									<td colspan="2"><hr></td>
-									</tr>
-									<tr id="total">
-									<td>Total</td>
-									<td>$35.98</td>
-									</tr>
-									<tr>
-									<td colspan="2"><hr></td>
-									</tr>									
-								</tbody>
-							</table>
-							<div class="form-example">
-								<a href="checkout.html"><button>Proceed</button></a>
-							</div>
-
+						<h2>Details</h2>
+						<p><b>Name:</b> Jane Doe</p>
+						<p><b>Address:</b> Dronningens gate 12, 1405 Langhus</p>
+						<p><b>E-mail:</b> janedoe@gmail.com</p>
+						<p><b>Phone:</b> +47 45858545</p>
+						<div id="aButtons">
+							<p><a href="account.html"><button id="account">Login details</button></a></p>
+							<p><a href="account.html"><button id="account">Edit details</button></a></p>
+							<p><a href="account.html"><button id="account">Payment details</button></a></p>
+							<p><a href="account.html"><button id="account">Your orders</button></a></p>
 						</div>
 					</div>
-				</div>
-			</div>
-
-		</div>
+                </div>
+            </div>
+        </div>
 	</article>
+
+
+
 	<article class="containerBottom">
 		<div class="divBottom">
 			<b>SquareEyes:</b> Connecting film-lovers
 		</div>
 	</article>
+
+
+	<script type="text/javascript">
+		let image = document.getElementById('imageX');
+		let images = ['images/Square_Eyes_Cover1.jpg','images/Square_Eyes_Cover3.jpg','images/Square_Eyes_Cover2.jpg','images/Square_Eyes_Cover8.jpg','images/Square_Eyes_Cover4.jpg','images/Square_Eyes_Cover5.jpg','images/Square_Eyes_Cover6.jpg','images/Square_Eyes_Cover7.jpg',]
+		setInterval(function() {
+			let random = Math.floor(Math.random() * 8)
+			image.src = images[random];
+		}, 2000);
+	</script>
 
 </body>
 </html>
