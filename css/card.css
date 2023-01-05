@@ -105,12 +105,13 @@ div .card p {
     justify-self: center;
 }
 
-.cardPhoto {
+.cardPhotoX {
     width: 500px;
     height: 741px;
     object-fit: fill;
     justify-self: center;
     display: block;
+    transition: 0.3s;
 }
 
 .grid-item:hover {
