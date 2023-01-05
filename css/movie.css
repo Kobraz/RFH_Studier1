@@ -163,18 +163,18 @@ button#account {
     font-size:medium;
     font-weight: 100;
     border-radius: 10px;
-    border: 0.5;
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
     width: 150px;
     display: flex;
     justify-content: center;
+    border: #fff solid 2px;
 }
 
 button#account:hover{
     transform: translatey(-0.5%);
     box-shadow: 0 4rem 8rem rgba(255, 251, 0, 0.5);
-    border: #fff solid 1px;
+    border: #fff solid 2px;
     cursor: pointer;
 }
 
