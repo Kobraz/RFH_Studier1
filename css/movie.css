@@ -172,7 +172,7 @@ button#account {
 
 button#account:hover{
     transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(1, 8, 190, 0.5);
+    box-shadow: 0 4rem 8rem rgba(255, 251, 0, 0.5);
     border: #fff solid 1px;
 }
 
