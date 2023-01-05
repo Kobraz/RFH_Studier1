@@ -19,6 +19,10 @@
 
 .grid-item2 {
     background-color: #ede7db;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
 }
 
 .cardImg {   
