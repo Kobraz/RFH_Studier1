@@ -167,12 +167,13 @@ button#account {
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
     width: 150px;
-    align-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 button#account:hover{
     transform: translatey(-0.5%);
-    text-shadow: 0 4rem 8rem rgba(255, 251, 0, 0.5);
+    box-shadow: 0 4rem 8rem rgba(255, 251, 0, 0.5);
     border: #fff solid 1px;
     cursor: pointer;
 }
