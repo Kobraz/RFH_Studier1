@@ -17,14 +17,19 @@
     transition: 0.2s;
 }
 
-.card {   
+.cardImg {   
     border-radius: 0.8rem;
 
     /*margin: 10px 10px 10px 10px;*/
 
 }
 
+.card {   
+    border-radius: 0.8rem;
 
+    margin: 10px 10px 10px 10px;
+
+}
 
 
 div .card {
