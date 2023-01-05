@@ -196,7 +196,7 @@ tr {
 
 button {
 	display: flex;
-	justify-items: center;
+	align-self: center;
 }
 
 
