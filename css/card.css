@@ -151,7 +151,7 @@ iframe {
         display: grid;
         width: 450px;
         grid-gap: 5rem;
-        grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+        grid-template-columns: repeat(auto-fit, 5rem);
         align-items: start;
     }
 
