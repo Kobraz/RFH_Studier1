@@ -170,7 +170,7 @@ button#account {
     align-self: center;
 }
 
-button:hover{
+button#account:hover{
     transform: translatey(-0.5%);
     box-shadow: 0 4rem 8rem rgba(1, 8, 190, 0.5);
 }
