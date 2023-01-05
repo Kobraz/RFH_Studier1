@@ -188,7 +188,7 @@ td.price {
 }
 
 .aButtons {
-	align-content: center;
+	align-self: center;
 }
 
 
