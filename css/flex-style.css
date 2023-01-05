@@ -90,7 +90,12 @@ nav ul li {
 	text-decoration: none;
 }
 
+table {
+	width: 100%;
+}
+
 td {
+	font-family: 'Poppins', sans-serif;
 	color: rgb(79, 210, 56);
 }
 
