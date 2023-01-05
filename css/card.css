@@ -146,6 +146,10 @@ iframe {
     width: 40px;
 }
 
+.break {
+    line-height: 50px;
+}
+
 
 
 @media only screen and (max-width:800px) {
