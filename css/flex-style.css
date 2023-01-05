@@ -195,7 +195,8 @@ tr {
 }
 
 button {
-	align-items: center;
+	display: flex;
+	justify-self: center;
 }
 
 
