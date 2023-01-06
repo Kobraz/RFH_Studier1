@@ -5,7 +5,7 @@ input[type=text] {
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     font-family: monospace;
 }
 
@@ -14,7 +14,7 @@ input[type=email] {
     box-shadow: 4px 4px 10px
         rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     font-family: monospace;
 }
 
@@ -26,7 +26,7 @@ label {
 textarea {
     padding: 10px;
     font-family: monospace;
-    width: 80%;
+    width: 100%;
     resize: vertical;
     border-radius: 10px;
     border: 0.5;
@@ -36,7 +36,7 @@ textarea {
 .textarea2 {
     padding: 10px;
     font-family: monospace;
-    width: 80%;
+    width: 100%;
     resize: vertical;
     border-radius: 10px;
     border: 0.5;
