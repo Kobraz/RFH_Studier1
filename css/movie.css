@@ -123,11 +123,12 @@
     text-align: left;
 }
 
+/*
 .price {
     text-align: justify;
-    width: 100%;
-    background-color: rgb(30, 105, 236);
+    
 }
+*/
 
 input[type="checkbox"] {
     vertical-align: top;
