@@ -6,6 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/flex-style.css">
 	<link rel="stylesheet" href="css/movie.css">
+    <link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -30,40 +35,49 @@
 		
 	</article>
 
-	<article class="containerMain">
-		<div class="divMain1">
-
-			<div id="movieContent">
-				<div id="movieCover">
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<a href="index.html"><img src="images/movies.gif" alt="MovieCoverAnimation" class="cover"></a>
-				</div>
-				<div id="movieInfo">
-					<div id="movieInfoBox">
+	
+    
+    <article class="containerMain">
+		<div class="grid">
+            <div class="grid-item" id="photo">
+                <div class="cardImg" id="photo">
+					<img class="cardPhotoX" id="imageX" src="images/Square_Eyes_Cover7.jpg" alt="movie cover">
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid-item" id="info">
+                <div class="card" id="info">
+					<div class="information">
+						<h1>Thankyou</h1>
+						<h2>Your message has been sent</h2>
 						<br>
-						<p> </p>
-						<h1>Thank you</h1>
-						<div id="text">
-							<br>
-							<p><b>Your message has been sent</b></p><br>
-							<p>We will process your inquiry as quickly as possible,</p>
-							<p>but within 3 working days.</p><br>
-							<p>If you have any questions about your order, you may</p>
-							<p>follow your order status on your account page.</p><br>
-							<p><b>Your message id: 485</b></p><br>
-						</div>
+						<p>We will process your inquiry as quickly as possible, but within 3 working days.</p>
+						<p>If you have any questions about your order, you may follow your order status on your account page.</p>
+						<h2>Your reference number: 485</h2>
 					</div>
-				</div>
-			</div>
-
-		</div>
+                </div>
+            </div>
+        </div>
 	</article>
+
+
+
 	<article class="containerBottom">
 		<div class="divBottom">
 			<b>SquareEyes:</b> Connecting film-lovers
 		</div>
 	</article>
+
+
+	<script type="text/javascript">
+		let image = document.getElementById('imageX');
+		let images = ['images/Square_Eyes_Cover1.jpg','images/Square_Eyes_Cover3.jpg','images/Square_Eyes_Cover2.jpg','images/Square_Eyes_Cover8.jpg','images/Square_Eyes_Cover4.jpg','images/Square_Eyes_Cover5.jpg','images/Square_Eyes_Cover6.jpg','images/Square_Eyes_Cover7.jpg',]
+		setInterval(function() {
+			let random = Math.floor(Math.random() * 8)
+			image.src = images[random];
+		}, 2000);
+	</script>
 
 </body>
 </html>
