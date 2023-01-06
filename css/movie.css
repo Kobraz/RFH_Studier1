@@ -123,12 +123,12 @@
     text-align: left;
 }
 
-/*
-.price {
+
+#price {
     width: 100%;
     
 }
-*/
+
 
 input[type="checkbox"] {
     vertical-align: top;
