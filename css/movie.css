@@ -125,6 +125,7 @@
 
 .price {
     text-align: justify;
+    width: 100;
 }
 
 input[type="checkbox"] {
