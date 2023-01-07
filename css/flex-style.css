@@ -225,6 +225,7 @@ button {
 	}
 
 	.containerBottom{
+		position: static;
 		bottom: 0px;
 		background-color: #7da2ff;
 		width: 100%;
