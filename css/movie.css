@@ -125,16 +125,9 @@
 
 
 .price {
-    display: flex;
     justify-content: center;
     width: 100%;    
 }
-
-/*
-.price-line {
-    display: flex;
-}
-*/
 
 button #addCart {
     display: inline-block;
