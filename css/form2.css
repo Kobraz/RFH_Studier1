@@ -78,6 +78,6 @@ hr {
 }
 
 td {
-    align: left;
+    align-content: left;
     height: 25px;
 }
