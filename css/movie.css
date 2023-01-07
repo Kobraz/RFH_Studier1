@@ -136,7 +136,7 @@
 }
 */
 
-button.addCart {
+button #addCart {
     display: inline-block;
 }
 
