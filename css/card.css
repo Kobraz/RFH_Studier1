@@ -203,6 +203,7 @@ iframe {
         overflow: hidden;
         box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
         transition: 0.2s;
+        bottom: 100px;
     }
 
     .information {
