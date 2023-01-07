@@ -130,6 +130,10 @@
     width: 100%;    
 }
 
+.price-line {
+    display: flex;
+}
+
 
 input[type="checkbox"] {
     vertical-align: top;
