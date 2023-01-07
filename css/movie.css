@@ -130,7 +130,7 @@
 }
 
 button #addCart {
-    display: inline-block;
+    display: inline;
 }
 
 input[type="checkbox"] {
