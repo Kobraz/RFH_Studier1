@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
 
 .grid {
-    margin: 155px 0 0 0;
     display: grid;
     width: 518px;
     grid-gap: 5rem;
