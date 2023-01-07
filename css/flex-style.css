@@ -63,6 +63,7 @@ img{
 }
 
 .containerMain{
+	margin: 155px 0 0 0;
 	width: 100%;
 	justify-content: center;
     display: flex;
