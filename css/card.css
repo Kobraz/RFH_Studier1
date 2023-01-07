@@ -211,5 +211,6 @@ iframe {
         height: 650px;
         margin: 20px 20px;
         background-color: #000;
+        bottom: 100px;
     }
 }
