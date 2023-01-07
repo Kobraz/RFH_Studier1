@@ -161,7 +161,7 @@ tr {
 
 
 .containerBottom{
-
+	position: fixed;
 	bottom: 0px;
 	background-color: #7da2ff;
 	width: 100%;
@@ -222,6 +222,13 @@ button {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 4em;
+	}
+
+	.containerBottom{
+		bottom: 0px;
+		background-color: #7da2ff;
+		width: 100%;
+		z-index: 100;
 	}
 
 }
