@@ -89,7 +89,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #999999;
+    background-color: black;
     border: white 1px solid;
     border-radius: 50%;
     display: inline-block;
@@ -97,7 +97,7 @@
   }
   .active,
   .dot:hover {
-    background-color: yellow;
+    background-color: white;
   }
 
   
