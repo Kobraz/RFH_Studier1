@@ -129,7 +129,7 @@
     width: 100%;    
 }
 
-button #addCart {
+button {
     display: inline;
 }
 
