@@ -194,6 +194,7 @@ iframe {
         grid-gap: 5rem;
         grid-template-columns: repeat(auto-fit, 480px);
         align-items: start;
+        bottom: 100px;
     }
 
     .grid-item {
