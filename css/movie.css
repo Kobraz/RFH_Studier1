@@ -130,7 +130,7 @@
 }
 
 button {
-    display: inline;
+    display: inline-block;
 }
 
 input[type="checkbox"] {
