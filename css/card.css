@@ -194,7 +194,6 @@ iframe {
         grid-gap: 5rem;
         grid-template-columns: repeat(auto-fit, 480px);
         align-items: start;
-        bottom: 100px;
     }
 
     .grid-item {
@@ -203,7 +202,6 @@ iframe {
         overflow: hidden;
         box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
         transition: 0.2s;
-        bottom: 100px;
     }
 
     .information {
@@ -211,6 +209,5 @@ iframe {
         height: 650px;
         margin: 20px 20px;
         background-color: #000;
-        bottom: 100px;
     }
 }
