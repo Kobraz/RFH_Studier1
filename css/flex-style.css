@@ -179,8 +179,10 @@ tr {
 }
 
 .divBottom{
-	min-width: 300px;
+	width: 100%;
 	height: 100%;
+	left: 0px;
+	right: 0px;
 	background-color: #7da2ff;
     text-align: center;
 	vertical-align: middle;
