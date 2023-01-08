@@ -217,9 +217,10 @@ button {
 
 
 @media only screen and (max-width: 800px) {
-	.divLogo{
+	/*.divLogo{
 		display: none;
 	}
+    */
 
 	.menuList{
 		display: none;
