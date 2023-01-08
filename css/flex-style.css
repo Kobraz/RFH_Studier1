@@ -260,4 +260,15 @@ button {
 		display: none;
 	}
 
+	.containerBottomHome{
+		position: static;
+		bottom: 0px;
+		background-color: #7da2ff;
+		left: 0px;
+		right: 0px;
+		z-index: 100;
+	}
+
+
+
 }
