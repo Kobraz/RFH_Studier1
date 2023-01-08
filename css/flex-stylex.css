@@ -219,15 +219,16 @@ button {
 @media only screen and (max-width: 800px) {
 	.divLogo{
 		top: 0px;
-        width: 100px;
-        height: 50px;
+        width: 140px;
+        height: 70px;
         display: flex;
-        
+        position: relative;
 	}
     
     .divMenu{
         top: 100px;
         display:flex;
+        position: relative;
     }
 
 	.menuList{
