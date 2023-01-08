@@ -226,7 +226,8 @@ button {
 	}
     
     .divMenu{
-        top: 80px;
+        top: 40px;
+        width: 100%;
         display:flex;
         position: relative;
     }
