@@ -168,7 +168,7 @@ tr {
 	z-index: 100;
 }
 
-.containerBottomIndex{
+.containerBottomIndex {
 	position: fixed;
 	bottom: 0px;
 	background-color: #7da2ff;
