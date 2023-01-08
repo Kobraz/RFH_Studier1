@@ -255,6 +255,7 @@ button {
 		bottom: 0px;
 		background-color: #7da2ff;
 		width: 100%;
+		right: 0px;
 		z-index: 100;
 	}
 
