@@ -223,7 +223,6 @@ button {
         height: 70px;
         display: flex;
         position: relative;
-		align-items: center;
 	}
     
     .divMenu{
@@ -234,7 +233,6 @@ button {
         width: 100%;
         display:flex;
         position: relative;
-		align-items: center;
     }
 
 	.menuList{
