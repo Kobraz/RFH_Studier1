@@ -223,6 +223,7 @@ button {
         height: 70px;
         display: flex;
         position: relative;
+		align-items: center;
 	}
     
     .divMenu{
@@ -233,6 +234,7 @@ button {
         width: 100%;
         display:flex;
         position: relative;
+		align-items: center;
     }
 
 	.menuList{
@@ -260,14 +262,6 @@ button {
 		display: none;
 	}
 
-	.containerBottomHome{
-		position: static;
-		bottom: 0px;
-		background-color: #7da2ff;
-		left: 0px;
-		right: 0px;
-		z-index: 100;
-	}
 
 
 
