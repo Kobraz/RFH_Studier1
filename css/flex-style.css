@@ -168,6 +168,14 @@ tr {
 	z-index: 100;
 }
 
+.containerBottomIndex{
+	position: fixed;
+	bottom: 0px;
+	background-color: #7da2ff;
+	width: 100%;
+	z-index: 100;
+}
+
 .divBottom{
 	min-width: 300px;
 	height: 100%;
