@@ -229,6 +229,7 @@ button {
         top: 40px;
         left: 10px;
         right: 10px;
+        margin: 0;
         width: 100%;
         display:flex;
         position: relative;
