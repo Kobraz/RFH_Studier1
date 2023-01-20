@@ -70,11 +70,14 @@ img{
     gap: 4em;
 }
 
+nav {
+	font-size: 26px;
+}
+
 nav ul li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 30px;
-	font-size: 26px;
 }
 
 #menuList {
