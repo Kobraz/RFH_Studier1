@@ -144,7 +144,7 @@ tr {
 }
 
 
-/*-----------------------------------------------START BOTTOM------------------------------------------------------------*/
+
 
 
 .containerBottom{
@@ -179,7 +179,7 @@ tr {
 }
 
 .divMenu a{
-	color: rgb(0, 0, 0);
+	color: rgb(234, 12, 12);
 	text-decoration: dotted;
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
