@@ -46,15 +46,6 @@ a:hover a:active {
 	z-index: 100;
 }
 
-.menu-icon {
-	filter: invert(100%);
-}
-
-.divMenu img{
-	height: 40px;
-	font-size: 26px;
-}
-
 ul.nav-links {
 	font-size: 26px;
 }
