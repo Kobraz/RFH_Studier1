@@ -105,7 +105,7 @@
   }
   .active,
   .dot:hover {
-    background-color: white;
+    background-color: grey;
     border: black 1px solid;
   }
 
