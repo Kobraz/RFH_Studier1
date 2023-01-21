@@ -212,6 +212,12 @@ button {
         display: flex;
         position: relative;
 	}
+
+	ul.nav-links {
+		font-family: 'Poppins', sans-serif;
+		font-size: 14px;
+		text-decoration: none;
+	}
     
     .divMenu{
         top: 40px;
