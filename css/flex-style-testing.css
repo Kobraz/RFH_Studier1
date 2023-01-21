@@ -217,6 +217,7 @@ button {
 
 	.logo {
 		max-height: 100px;
+		padding: 25px;
 	}
 
 	ul.nav-links {
