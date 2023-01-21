@@ -209,8 +209,8 @@ button {
 @media only screen and (max-width: 800px) {
 	.divLogo{
 		top: 0px;
-        width: 140px;
-        height: 70px;
+        width: 120px;
+        height: 60px;
         display: flex;
         position: relative;
 	}
