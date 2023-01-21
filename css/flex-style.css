@@ -55,6 +55,10 @@ a:hover a:active {
 	font-size: 26px;
 }
 
+ul.nav-links {
+	font-size: 26px;
+}
+
 .menu:hover{
 	filter: invert(100%) sepia(70%) saturate(120%) hue-rotate(190deg) brightness(100%);
 }
