@@ -219,6 +219,10 @@ button {
 		font-family: 'Poppins', sans-serif;
 		font-size: 14px;
 		text-decoration: none;
+		display:flex;
+		flex-direction: column;
+        position: relative;
+
 	}
     
     .divMenu{
