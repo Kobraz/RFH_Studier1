@@ -250,7 +250,7 @@ button {
 	.containerMain {
 		justify-content: center;
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: wrap-reverse;
 		gap: 4em;
 	}
 
