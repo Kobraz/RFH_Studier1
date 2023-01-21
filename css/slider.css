@@ -32,6 +32,7 @@
   .next {
     cursor: pointer;
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
     top: 50%;
     width: auto;
     padding: 16px;
