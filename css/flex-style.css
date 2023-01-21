@@ -48,6 +48,7 @@ a:hover a:active {
 
 ul.nav-links {
 	font-size: 26px;
+	text-decoration: none;
 }
 
 ul.nav-links:hover{
