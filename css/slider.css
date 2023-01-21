@@ -103,7 +103,12 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  .active,
+  .active {
+    background-color: white;
+    border: black 1px solid;
+  }
+
+
   .dot:hover {
     background-color: grey;
     border: black 1px solid;
